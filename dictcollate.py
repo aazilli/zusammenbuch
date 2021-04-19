@@ -22,7 +22,7 @@ import langid
 # Loop through these? https://api.woerterbuchnetz.de/dictionaries/DWB/articles/N06749/formid
 # They render it with this JavaScript: https://woerterbuchnetz.de//Woerterbuecher/DWB/renderArticle.js
 
-search = "Wahrheit"
+search = "vermeiden"
 user_header = {'User-Agent': 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'}
 cc_link = requests.get("https://www.dict.cc/?s=" + search, headers=user_header).text
 leo_link = requests.get("https://dict.leo.org/englisch-deutsch/" + search).text
@@ -104,6 +104,8 @@ for relative_link in leo_content.find_all('a', href=re.compile('^/grammatik')):
     relative_link['href'] = "https://dict.leo.org" + relative_link['href']
 for relative_link in leo_content.find_all('a', href=re.compile('^/forum')):
     relative_link['href'] = "https://dict.leo.org" + relative_link['href']
+for relative_link in leo_content.find_all('a', href=re.compile('^/pages/flecttab')):
+    relative_link['href'] = "https://dict.leo.org" + relative_link['href']
 
 soup5 = BeautifulSoup(dwds_link, 'lxml')
 dwds_content = soup5.find('div', {'class': 'dwdswb-artikel'})
@@ -135,6 +137,7 @@ dwds_content.find('audio').decompose()
 # or ... completely wipe styles between each section?
 
 #styles are working, I think, but leo needs javascript
+# find leo inflection tables
 
 #compile bootstrap with LESS?
 
