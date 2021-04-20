@@ -23,6 +23,14 @@ import langid
 # They render it with this JavaScript: https://woerterbuchnetz.de//Woerterbuecher/DWB/renderArticle.js
 
 search = "vermeiden"
+# search may need some preprocessing to handle multiword phrases and umlauts:
+# Examples (Hals über Kopf):
+# cc = https://www.dict.cc/?s=Hals+%C3%BCber+Kopf
+# leo = https://dict.leo.org/englisch-deutsch/Hals%20%C3%BCber%20Kopf
+# linguee = https://www.linguee.com/german-english/translation/Hals+%C3%BCber+Kopf
+# duden = https://www.duden.de/rechtschreibung/Hals_ueber_Kopf
+# dwds = https://www.dwds.de/wb/Hals%20%C3%BCber%20Kopf
+
 user_header = {'User-Agent': 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'}
 cc_link = requests.get("https://www.dict.cc/?s=" + search, headers=user_header).text
 leo_link = requests.get("https://dict.leo.org/englisch-deutsch/" + search).text
@@ -190,7 +198,7 @@ with open('ex_output.html', "w") as ex2:
     ex2.write(str(linguee_content))
     ex2.write("""</div>""")
 
-    ex2.write("""<div class="duden-class">""")
+    ex2.write("""<div id="duden-id">""")
     ex2.write(str(duden_content))
     ex2.write("""</div>""")
 
