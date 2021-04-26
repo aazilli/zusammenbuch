@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dict Masher</title>
+    </head>
+    <body>
+
+<!-- add sub-section headers for translation and language-specific dictionaries -->
+
+      <h1>German searches</h1>
+      <form method="post">
+      {% csrf_token %}
+      {% for dictionary in dictionaries %}
+      {% if dictionary.lang != 'EN'%}
+      {{dictionary.make_form|safe}}
+      <br>
+      {% endif %}
+      {% endfor %}
+      <h1>English searches</h1>
+      {% for dictionary in dictionaries %}
+      {% if dictionary.lang != 'DE'%}
+      {{dictionary.make_form|safe}}
+      <br>
+      {% endif %}
+      {% endfor %}
+      <input type="submit">
+      </form>
+
+  </body>
+  </html>

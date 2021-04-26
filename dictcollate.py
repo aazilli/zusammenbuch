@@ -22,7 +22,9 @@ import langid
 # Loop through these? https://api.woerterbuchnetz.de/dictionaries/DWB/articles/N06749/formid
 # They render it with this JavaScript: https://woerterbuchnetz.de//Woerterbuecher/DWB/renderArticle.js
 
-search = "vermeiden"
+# Add stat tracking!!! Save queries, users, visits, dictionaries used, settings
+
+search = "bitter"
 # search may need some preprocessing to handle multiword phrases and umlauts:
 # Examples (Hals über Kopf):
 # cc = https://www.dict.cc/?s=Hals+%C3%BCber+Kopf
@@ -36,8 +38,18 @@ cc_link = requests.get("https://www.dict.cc/?s=" + search, headers=user_header).
 leo_link = requests.get("https://dict.leo.org/englisch-deutsch/" + search).text
 duden_link = requests.get("https://www.duden.de/rechtschreibung/" + search).text
 linguee_link = requests.get("https://www.linguee.com/english-german/search?source=auto&query=" + search, headers=user_header).text
-dwds_link = requests.get("https://www.dwds.de/wb/" + search).text
+# dwds_link = requests.get("https://www.dwds.de/wb/" + search).text
 
+dictionary_com_link = requests.get("https://www.dictionary.com/browse/" + search).text
+thesaurus_com_link = requests.get("https://www.thesaurus.com/browse/" + search).text
+# merriam_webster_dict_link = requests.get("https://www.merriam-webster.com/dictionary/" + search).text
+# merriam_webster_thes_link = requests.get("https://www.merriam-webster.com/thesaurus/" + search).text
+cambridge_dict_link = requests.get("https://dictionary.cambridge.org/dictionary/english/" + search, headers=user_header).text
+# wiktionary_link = requests.get("https://en.wiktionary.org/wiki/" + search).text
+free_dictionary_link = requests.get("https://www.thefreedictionary.com/" + search).text
+
+
+# wiktionary grab everything from the English h2 to the next h2?
 
 #still getting rate limited by linguee
 #def IP block
@@ -48,6 +60,8 @@ dwds_link = requests.get("https://www.dwds.de/wb/" + search).text
 # For users with disabled Javascript, this number is much lower than for those with enabled Javascript. The following steps may be helpful to prevent your computer from being blocked again: enable Javascript in your browser settings, wait for a few hours, and then try using Linguee again.
 # If your computer is part of a large network that is protected by an NAT/Firewall with many users within your network using Linguee concurrently, please contact us.
 
+#headless browser
+#chrome headless with python/selenium
 
 #Edge case: e.g. Verdienst, which has two forms: der AND das. duden has separate
 # URLS for each, whereas dwds splits them between tabs. Workaround?
@@ -82,11 +96,12 @@ duden_nav = soup3.find('div', id="block-stickynavigationblock")
 #trim
 # duden_content.find('nav', {'class': 'gizmo'}).decompose()
  #not working?
-duden_content.find('div', {'id': 'wussten_sie_schon'}).decompose()
-duden_content.find('div', {'id': 'aussprache'}).decompose()
-duden_content.find('div', {'id': 'kontext'}).decompose()
-for ad in duden_content.find_all('div', {'class': 'tile__wrapper'}):
-    ad.decompose()
+
+# duden_content.find('div', {'id': 'wussten_sie_schon'}).decompose()
+# duden_content.find('div', {'id': 'aussprache'}).decompose()
+# duden_content.find('div', {'id': 'kontext'}).decompose()
+# for ad in duden_content.find_all('div', {'class': 'tile__wrapper'}):
+#     ad.decompose()
 
 
 # duden_css_links = soup3.find_all('link', href=re.compile('https://cdn.duden.de/ampersand/'))
@@ -96,15 +111,15 @@ for relative_link in duden_content.find_all('a', href=re.compile('^/rechtschreib
 soup4 = BeautifulSoup(leo_link, 'lxml')
 leo_content = soup4.find('div', {"data-dz-search": "result"})
 #trim
-leo_content.find('div', {'class': 'm-v-large'}).decompose()
-leo_content.find('div', {'id': 'sim'}).decompose()
-leo_content.find('div', {'id': 'ffsyn'}).decompose()
-leo_content.find('div', {'id': 'grammar'}).decompose()
-leo_content.find('div', {'id': 'forumResults'}).decompose()
-#maybe add dedicated forum section at end
-leo_content.find('div', {'class': 'ta-r m-v-large'}).decompose()
-leo_content.find('div', {'id': 'adv-native'}).decompose()
-leo_content.find('header', {'class': 'breadcrumb'}).decompose()
+# leo_content.find('div', {'class': 'm-v-large'}).decompose()
+# leo_content.find('div', {'id': 'sim'}).decompose()
+# leo_content.find('div', {'id': 'ffsyn'}).decompose()
+# leo_content.find('div', {'id': 'grammar'}).decompose()
+# leo_content.find('div', {'id': 'forumResults'}).decompose()
+# #maybe add dedicated forum section at end
+# leo_content.find('div', {'class': 'ta-r m-v-large'}).decompose()
+# leo_content.find('div', {'id': 'adv-native'}).decompose()
+# leo_content.find('header', {'class': 'breadcrumb'}).decompose()
 
 for relative_link in leo_content.find_all('a', href=re.compile('^/englisch-deutsch')):
     relative_link['href'] = "https://dict.leo.org" + relative_link['href']
@@ -115,13 +130,34 @@ for relative_link in leo_content.find_all('a', href=re.compile('^/forum')):
 for relative_link in leo_content.find_all('a', href=re.compile('^/pages/flecttab')):
     relative_link['href'] = "https://dict.leo.org" + relative_link['href']
 
-soup5 = BeautifulSoup(dwds_link, 'lxml')
-dwds_content = soup5.find('div', {'class': 'dwdswb-artikel'})
+# soup5 = BeautifulSoup(dwds_link, 'lxml')
+# dwds_content = soup5.find('div', {'class': 'dwdswb-artikel'})
 # dwds_css_links = soup5.find_all('link', href=re.compile(r"/.css$"))
 
+soup6 = BeautifulSoup(dictionary_com_link, 'lxml')
+dictionary_com_content = soup6.find('div', {'class': 'css-1avshm7'})
+# find_all? seems to be the same class for british english definition
+
+soup7 = BeautifulSoup(thesaurus_com_link, 'lxml')
+thesaurus_com_content1 = soup7.find('div', {'id': 'headword'})
+thesaurus_com_content2 = soup7.find('div', {'id': 'meanings'})
+#double check how the css applies here. maybe it applies to the overarching div?
+#I've just grabbed a sub-div here. Hack would be just to put it in an extra div with the overarching class name.
+
+
+soup8 = BeautifulSoup(cambridge_dict_link, 'lxml')
+cambridge_content = soup8.find('div', {'class': 'entry'})
+
+#merriam-webster use regex for finding ids/classes like thesaurus-entry-1, dictionary-entry-2
+#though this also lacks the headers, which are necessary for semantic meaning
+
+soup9 = BeautifulSoup(free_dictionary_link, 'lxml')
+free_dictionary_content = soup9.find('div', {'id': 'content'})
+
+
 #trim
-dwds_content.find('div', {'class': 'dwdswb-quelle'}).decompose()
-dwds_content.find('audio').decompose()
+# dwds_content.find('div', {'class': 'dwdswb-quelle'}).decompose()
+# dwds_content.find('audio').decompose()
 
 # with open('dwds.css', 'a') as dwds_css:
 #     for linktag in dwds_css_links:
@@ -205,6 +241,24 @@ with open('ex_output.html', "w") as ex2:
     # ex2.write("""<div id="dwds-id">""")
     # ex2.write(str(dwds_content))
     # ex2.write("""</div>""")
+
+    ex2.write("""<div id="dictcom-id">""")
+    ex2.write(str(dictionary_com_content))
+    ex2.write("""</div>""")
+
+    ex2.write("""<div id="thescom-id">""")
+    ex2.write(str(thesaurus_com_content1))
+    ex2.write(str(thesaurus_com_content2))
+    ex2.write("""</div>""")
+
+    ex2.write("""<div id="cambridge-id">""")
+    ex2.write(str(cambridge_content))
+    ex2.write("""</div>""")
+
+    ex2.write("""<div id="free-dictionary-id">""")
+    ex2.write(str(free_dictionary_content))
+    ex2.write("""</div>""")
+
 
     ex2.write("""</body>
     </html>""")

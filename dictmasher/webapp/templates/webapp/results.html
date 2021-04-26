@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Das Zusammenbuch</title>
+
+      <link rel="stylesheet" href="{% static 'css/cc_id.css' %}" type="text/css">
+      <link rel="stylesheet" href="{% static 'css/leo_id.css' %}" type="text/css">
+      <link rel="stylesheet" href="{% static 'css/linguee_id.css' %}" type="text/css">
+      <link rel="stylesheet" href="{% static 'css/dwds_id.css' %}" type="text/css">
+      <link rel="stylesheet" href="{% static 'css/bootstrap_dwds.css' %}" type="text/css">
+      <link rel="stylesheet" href="{% static 'css/duden_id.css' %}" type="text/css">
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="{% static 'js/dwds.js' %}"></script>
+      <script src="{% static 'js/dist/modern/dict.webpack-734fb2aa.js' %}"></script>
+
+  </head>
+  <body>
+
+    {% for dictionary in dictionaries %}
+    {{dictionary.make_article|safe}}
+    <br>
+    {% endfor %}
+
+  </body>
+</html>

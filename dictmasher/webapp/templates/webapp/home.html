@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dict Masher</title>
+    </head>
+    <body>
+
+<form type="POST" action='/webapp/results'>
+  {% csrf_token %}
+  {{form}}
+    <button id="search_submit" type="submit">Submit</button>
+</form>
+
+  </body>
+  </html>
