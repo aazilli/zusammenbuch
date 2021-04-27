@@ -1,5 +1,6 @@
 from django.db import models
 from bs4 import BeautifulSoup
+from django.contrib.sessions.models import Session
 import requests
 import re
 import selenium
@@ -77,7 +78,6 @@ class Dictionary(models.Model):
             for ad in content.find_all('div', {'class': 'tile__wrapper'}):
                 ad.decompose()
 
-                #WRAP IN DIV!!!
         return "<div id=" + str('"') + self.div_id + str('">') + str(content) + "</div id=" + self.div_id + str('">')
 
     def make_form(self):
@@ -154,6 +154,7 @@ class Dictionary(models.Model):
 
 #add foreign key
 class Settings(models.Model):
+    session = models.ForeignKey(Session, on_delete=models.CASCADE)
     dict = models.ForeignKey(Dictionary, on_delete=models.CASCADE)
     is_enabled_de = models.BooleanField()
     is_enabled_en = models.BooleanField()

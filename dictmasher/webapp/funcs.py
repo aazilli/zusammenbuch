@@ -1,12 +1,16 @@
 from .models import Dictionary, Settings
+from django.contrib.sessions.models import Session
 
+#import Sessions? Match session object by session key, then pass object to Settings?
 
 def set_settings(request):
     #will filter the delete and write commands by session id
-    Settings.objects.all().delete()
+
+    sesh = Session.objects.get(pk=request.session.session_key)
+    Settings.objects.all().filter(session=sesh).delete()
+
     dictionaries = Dictionary.objects.all()
     for dictionary in dictionaries:
-        dict = dictionary.pk
         is_enabled_de = False
         is_enabled_en = False
         is_trimmed_de = True
@@ -34,5 +38,5 @@ def set_settings(request):
             if item[0] == dictionary.name + "-display-en-form":
                 if item[1] == 'full':
                     is_trimmed_en = False
-        setting = Settings(dict=dictionary, is_enabled_de=is_enabled_de, is_enabled_en=is_enabled_en, is_trimmed_de=is_trimmed_de, is_trimmed_en=is_trimmed_en, order_de=order_de, order_en=order_en)
+        setting = Settings(session=sesh, dict=dictionary, is_enabled_de=is_enabled_de, is_enabled_en=is_enabled_en, is_trimmed_de=is_trimmed_de, is_trimmed_en=is_trimmed_en, order_de=order_de, order_en=order_en)
         setting.save()
