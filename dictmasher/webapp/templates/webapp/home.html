@@ -1,15 +1,36 @@
+{% load static %}
 <!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>Dict Masher</title>
-    </head>
-    <body>
 
-<form type="POST" action='/webapp/results'>
+        <link rel="stylesheet" href="{% static 'css/search_home.css' %}" type="text/css">
+        <script src="{% static 'js/search_home.js' %}"></script>
+    </head>
+    <body class="main-body">
+
+<!-- <form type="POST" action='/webapp/results'>
   {% csrf_token %}
   {{form}}
     <button id="search_submit" type="submit">Submit</button>
+</form> -->
+
+
+<form type="GET" action='/webapp/results'>
+<div class="wrap">
+   <span class="search">
+      <input type="text" name="search_field" class="searchTerm" placeholder="ein Wörtchen nachschlagen" required id="id_search_field">
+      <button id="search_submit" type="submit" class="searchButton">
+        <img src="{% static 'search.png' %}" />
+      </button>
+   </span>
+
+     <button class="lang-selector" id="DE-button" type="button" onclick="DESwitch()">DE</button>
+     <button class="lang-selector" id="EN-button" type="button" onclick="ENSwitch()">EN</button>
+
+    <input type="text" name="lang" id="id_lang" value="DE"></input>
+</div>
 </form>
 
   </body>

@@ -33,7 +33,7 @@
 			60: 1
 		}[e] && t.push(r[e] = new Promise((function(t, n) {
       // changed path
-			for(var a = "../dictcollate/js/dist/chunks/" + {
+			for(var a = "../../static/js/dist/chunks/" + {
 					0: "eaa767e15a212b04c449-72742021",
 					1: "bf1277e10fbb76b11601-9ec2b836",
 					2: "da63244f9197f39c8b76-aa54a2af",
@@ -109,7 +109,7 @@
         // I removed 'o.p +' from the beginning of this path-building func
 				s.charset = "utf-8", s.timeout = 120, o.nc && s.setAttribute("nonce", o.nc), s.src = function(e) {
           // changed path
-					return "../dictcollate/js/dist/chunks/" + {
+					return "../../static/js/dist/chunks/" + {
 						0: "eaa767e15a212b04c449-72742021",
 						1: "bf1277e10fbb76b11601-9ec2b836",
 						2: "da63244f9197f39c8b76-aa54a2af",

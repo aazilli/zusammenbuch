@@ -1,0 +1,5 @@
+Background: Rounded
+Family Font: Pathway Gothic One
+Font Size: 120
+Font Color: #222
+Background Color: #ADF

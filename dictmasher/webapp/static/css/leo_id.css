@@ -2,7 +2,7 @@
 #leo-id article,
 #leo-id audio,
 #leo-id b,
-#leo-id body,
+#leo-id,
 #leo-id button,
 #leo-id div,
 #leo-id em,
@@ -291,7 +291,7 @@
 #leo-id a,
 #leo-id audio,
 #leo-id b,
-#leo-id body,
+#leo-id ,
 #leo-id button,
 #leo-id div,
 #leo-id figcaption,
@@ -345,7 +345,7 @@
 	display: block;
 }
 
-#leo-id body {
+#leo-id {
 	line-height: 1;
 }
 
@@ -1247,7 +1247,7 @@
 	padding-left: 12px;
 }
 
-#leo-id body,
+#leo-id ,
 #leo-id html {
 	height: 100%;
 }
@@ -1992,9 +1992,9 @@
 	background-color: #fff;
 }
 
-#leo-id body {
+#leo-id {
 	position: relative;
-	width: 100%;
+	/* width: 100%; */
 	margin-right: auto;
 	font-family: Arial, Verdana, sans-serif;
 	text-align: left;
@@ -2004,7 +2004,7 @@
 	color: #000;
 }
 
-#leo-id body {
+#leo-id {
 	font-size: 87%;
 }
 

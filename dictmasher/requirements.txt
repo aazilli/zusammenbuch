@@ -1,0 +1,7 @@
+Django==3.2
+django-crispy-forms
+gunicorn
+beautifulsoup4==4.9.2
+psycopg2-binary
+selenium==3.141.0
+requests

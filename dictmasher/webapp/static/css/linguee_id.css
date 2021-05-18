@@ -10,14 +10,13 @@
 	background-repeat: no-repeat;
 }
 
-#linguee-id body,
+#linguee-id ,
 #linguee-id #header,
 #linguee-id #header input {
 	font-family: Avenir Next, Roboto Condensed, Arial, sans-serif;
 }
 
-#linguee-id body {
-	background-color: #dedede;
+#linguee-id  {
 	margin: 0;
 	padding: 0;
 	color: #3c3c3c;
@@ -125,7 +124,7 @@
 
 #linguee-id #lingueecontent {
 	min-height: 300px;
-	margin: 2px 0 150px 0;
+	margin: 2px 0 15px 0;
 	position: relative;
 	color: #333;
 	overflow: visible;
@@ -1615,8 +1614,8 @@
 }
 
 #linguee-id .wide_in_main {
-	margin-left: -17px !important;
-	margin-right: -17px !important;
+	margin-left: 4px !important;
+	margin-right: 4px !important;
 	padding-left: 17px!important;
 	padding-right: 17px!important;
 }
@@ -1639,8 +1638,8 @@
 
 	#linguee-id .wide_in_main,
   #linguee-id .ad_180 .wide_in_main {
-		margin-left: -27px !important;
-		margin-right: -27px !important;
+		margin-left: 4px !important;
+		margin-right: 4px !important;
 		padding-left: 27px!important;
 		padding-right: 27px!important;
 	}
@@ -1666,8 +1665,8 @@
 	#linguee-id .ad_355 .wide_in_main,
   #linguee-id .ad_530 .wide_in_main,
   #linguee-id .ad_705 .wide_in_main {
-		margin-left: -17px !important;
-		margin-right: -17px !important;
+		margin-left: 4px !important;
+		margin-right: 4px !important;
 		padding-left: 17px!important;
 		padding-right: 17px!important;
 	}
@@ -1695,8 +1694,8 @@
 
 	#linguee-id .wide_in_main,
   #linguee-id .ad_180 .wide_in_main {
-		margin-left: -35px !important;
-		margin-right: -35px !important;
+		margin-left: 4px !important;
+		margin-right: 4px !important;
 		padding-left: 35px!important;
 		padding-right: 35px!important;
 	}
@@ -1718,8 +1717,8 @@
 	}
 
 	#linguee-id .ad_355 .wide_in_main {
-		margin-left: -27px !important;
-		margin-right: -27px !important;
+		margin-left: 4px !important;
+		margin-right: 4px !important;
 		padding-left: 27px!important;
 		padding-right: 27px!important;
 	}
@@ -1741,8 +1740,8 @@
 	}
 
 	#linguee-id .ad_355 .wide_in_main {
-		margin-left: -35px !important;
-		margin-right: -35px !important;
+		margin-left: 4px !important;
+		margin-right: 4px !important;
 		padding-left: 35px!important;
 		padding-right: 35px!important;
 	}
@@ -1762,8 +1761,8 @@
 	}
 
 	#linguee-id .ad_530 .wide_in_main {
-		margin-left: -27px !important;
-		margin-right: -27px !important;
+		margin-left: 4px !important;
+		margin-right: 4px !important;
 		padding-left: 27px!important;
 		padding-right: 27px!important;
 	}
@@ -1785,8 +1784,8 @@
 	}
 
 	#linguee-id .ad_530 .wide_in_main {
-		margin-left: -35px !important;
-		margin-right: -35px !important;
+		margin-left: 4px !important;
+		margin-right: 4px !important;
 		padding-left: 35px!important;
 		padding-right: 35px!important;
 	}
@@ -1806,8 +1805,8 @@
 	}
 
 	#linguee-id .ad_705 .wide_in_main {
-		margin-left: -27px !important;
-		margin-right: -27px !important;
+		margin-left: 4px !important;
+		margin-right: 4px !important;
 		padding-left: 27px!important;
 		padding-right: 27px!important;
 	}
@@ -1829,8 +1828,8 @@
 	}
 
 	#linguee-id .ad_705 .wide_in_main {
-		margin-left: -35px !important;
-		margin-right: -35px !important;
+		margin-left: 4px !important;
+		margin-right: 4px !important;
 		padding-left: 35px!important;
 		padding-right: 35px!important;
 	}
@@ -1891,8 +1890,8 @@
 	}
 
 	#linguee-id .wide_in_main {
-		margin-left: -12px !important;
-		margin-right: -12px !important;
+		margin-left: 4px !important;
+		margin-right: 4px !important;
 		padding-left: 12px!important;
 		padding-right: 12px!important;
 	}
@@ -1935,7 +1934,7 @@
 		background-color: white;
 	}
 
-	#linguee-id body {
+	#linguee-id  {
 		background-color: white;
 		height: 100%;
 		overflow-x: hidden;
@@ -1965,7 +1964,7 @@
 		padding-top: 2px;
 	}
 
-	#linguee-id body:not(.design2019) #header {
+	#linguee-id :not(.design2019) #header {
 		padding-left: 12px!important;
 		padding-right: 12px!important;
 	}
@@ -3722,7 +3721,7 @@
 	}
 }
 
-#linguee-id body.design2019 {
+#linguee-id .design2019 {
 	background-color: #f1f1f1;
 	min-height: 100vh;
 }

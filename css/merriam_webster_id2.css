@@ -1,0 +1,2814 @@
+#merriam-webster-id .fa-angle-double-left,
+#merriam-webster-id .fa-angle-double-right,
+#merriam-webster-id .fa-angle-left,
+#merriam-webster-id .fa-angle-right {
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 14px;
+	height: 32px;
+	background-size: contain;
+	background-position: 50%;
+}
+
+#merriam-webster-id .fa-angle-double-left {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAXVBMVEUAAACuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABX8qunYAAAAHnRSTlMAAQIEBQYJCxATFBYoKS05PENLeHl/iLW+wMfc7fEt7PnjAAAAZklEQVQoke3JVw6AIBBF0VHsWLD32f8yZaIQhEQXoO/r5h0Ac6GvMwZrfF+CKwesbUNclCGWtuGsDQvHmDbxIcseDDp6cqqIajIN2CyvnVMK0uHXF/W0No72Z0rdErjr2Kqs1hTgABTAHxRh/YuMAAAAAElFTkSuQmCC");
+}
+
+#merriam-webster-id .disabled .fa-angle-double-left {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAXVBMVEUAAADDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8OXSD8oAAAAHnRSTlMAAQIEBQYJCxATFBYoKS05PENLeHl/iLW+wMfc7fEt7PnjAAAAZklEQVQoke3JVw6AIBBF0VHsWLD32f8yZaIQhEQXoO/r5h0Ac6GvMwZrfF+CKwesbUNclCGWtuGsDQvHmDbxIcseDDp6cqqIajIN2CyvnVMK0uHXF/W0No72Z0rdErjr2Kqs1hTgABTAHxRh/YuMAAAAAElFTkSuQmCC");
+}
+
+#merriam-webster-id .fa-angle-left {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAM1BMVEUAAACuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABU30/8UAAAAEHRSTlMAAQIEBQYUFih4eX+1wMfxUDWKYQAAAENJREFUKFPtyTkSACAIBEG8b+H/r5XESKXMdaKtbYAlp9dvFrDbsxF1wahJZp40LxhkNop7A9MYMXy9ViVoORhrTXMOIvYIcwU0+tIAAAAASUVORK5CYII=");
+}
+
+#merriam-webster-id .disabled .fa-angle-left {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAM1BMVEUAAADDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8N19kIVAAAAEHRSTlMAAQIEBQYUFih4eX+1wMfxUDWKYQAAAENJREFUKFPtyTkSACAIBEG8b+H/r5XESKXMdaKtbYAlp9dvFrDbsxF1wahJZp40LxhkNop7A9MYMXy9ViVoORhrTXMOIvYIcwU0+tIAAAAASUVORK5CYII=");
+}
+
+#merriam-webster-id .fa-angle-right {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAMFBMVEUAAACuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABW9jXgDAAAAD3RSTlMACQsQEyktOTxDS4i+3O3Sd059AAAAQklEQVQY02NgYGBgYkAB8zcg89j+/0bmsv7/jyLdjyrNMYikz///iMTj/v+/AYm7//+PAZbkQpVkfv8DJRZ8C+BMADVCQmmVgQ/HAAAAAElFTkSuQmCC");
+}
+
+#merriam-webster-id .disabled .fa-angle-right {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAMFBMVEUAAADDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8Nrre36AAAAD3RSTlMACQsQEyktOTxDS4i+3O3Sd059AAAAQklEQVQY02NgYGBgYkAB8zcg89j+/0bmsv7/jyLdjyrNMYikz///iMTj/v+/AYm7//+PAZbkQpVkfv8DJRZ8C+BMADVCQmmVgQ/HAAAAAElFTkSuQmCC");
+}
+
+#merriam-webster-id .anchor-to-typeshift .fa-angle-right {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAIBAMAAAA2IaO4AAAAMFBMVEUAAAB1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXWzWOQtAAAAEHRSTlMAAQIGCBAYGUd4gqOlzM71mDcHLQAAAChJREFUCB1j4ExgYGBguQYkGPwKgATrZyAh08DAwLgDyOACMhiYgBgAbdIE25ZOpcIAAAAASUVORK5CYII=");
+	width: 7px;
+	height: 7px;
+}
+
+#merriam-webster-id .fa-angle-double-right {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAXVBMVEUAAACuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABX8qunYAAAAHnRSTlMAAQIEBQYJCxATFBYoKS05PENLeHl/iLW+wMfc7fEt7PnjAAAAY0lEQVQoU+3JRxKAIBBE0TZnxYR57n9MHQsogSvYq1/9AGTQCxM460mqiversq0l0roTOdqQ0Y08FUajXz0tLV1ZU66aa/qa5EdwVddTW/Tbu8FY4BnyUxkwuwYUR6dzXGy7ATR0HxTh1MbWAAAAAElFTkSuQmCC");
+}
+
+#merriam-webster-id .disabled .fa-angle-double-right {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAXVBMVEUAAADDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8OXSD8oAAAAHnRSTlMAAQIEBQYJCxATFBYoKS05PENLeHl/iLW+wMfc7fEt7PnjAAAAY0lEQVQoU+3JRxKAIBBE0TZnxYR57n9MHQsogSvYq1/9AGTQCxM460mqiversq0l0roTOdqQ0Y08FUajXz0tLV1ZU66aa/qa5EdwVddTW/Tbu8FY4BnyUxkwuwYUR6dzXGy7ATR0HxTh1MbWAAAAAElFTkSuQmCC");
+}
+
+#merriam-webster-id .fa-angle-down,
+#merriam-webster-id .fa-chevron-down,
+#merriam-webster-id .fa-chevron-right,
+#merriam-webster-id .fa-minus,
+#merriam-webster-id .fa-plus {
+	width: 10px;
+	height: 10px;
+	background-size: contain;
+	background-position: 50%;
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+
+#merriam-webster-id .fa-chevron-down {
+	width: 12px;
+	height: 12px;
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAJ1BMVEUAAACuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWQ0gaaAAAADHRSTlMAAQIFRkyJm53HyMogFRo2AAAAU0lEQVQI12NgwA0YU0CkmwADx5kABgbWMwUM0meOMjDEnNnIwLznTADrmdMGDAzWZ47GnNkMVAcUOnPKAKTD6syZxWADmNdABIBCk6FmMikw4AUAx/wWUqbJxEIAAAAASUVORK5CYII=");
+	background-position: 0 2px;
+}
+
+#merriam-webster-id .fa-chevron-right {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAMAAABhq6zVAAAAM1BMVEUAAACuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABU30/8UAAAAEHRSTlMAAQIDBAYKI0p3f7XFx8/7vCTl1wAAADZJREFUCFuNx7kRACAMA0Hx/6D+qyXBYwICLtoDkJqHFBe7XuHvVXKYYz/I8nJX28twUw2ELNq6YAJK4eBgPAAAAABJRU5ErkJggg==");
+	width: 12px;
+	height: 12px;
+}
+
+#merriam-webster-id .fa-plus {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKBAMAAAB/HNKOAAAAIVBMVEUAAACuABWuABWuABWuABWuABWuABWuABWuABWuABWuABVlthLqAAAACnRSTlMABRgtNlJWrcf7OeGjrgAAAC1JREFUCB1jYGA0YgAC1pUgkm0VnOxatWrVJAYgsWoxg1v6qrRAFFkGlhUMDABlCAzB6iB4YQAAAABJRU5ErkJggg==");
+}
+
+#merriam-webster-id .fa-minus {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKBAMAAAB/HNKOAAAAHlBMVEUAAACuABWuABWuABWuABWuABWuABWuABWuABWuABXCHS1fAAAACXRSTlMABRgtNlJWx/tdB+OUAAAAHUlEQVQIHWPABJUzZ85sYpgJBJMZ3NLS0gIZcAAA/lQHh4Kmv48AAAAASUVORK5CYII=");
+}
+
+#merriam-webster-id .fa-angle-down {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUBAMAAAB/pwA+AAAAMFBMVEUAAADk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTykhokAAAAD3RSTlMAAQIECiMlYWJ3psPc3v2CpcpnAAAARklEQVQIW2NgIAgUoLQBg9QVCIvjGUP8Xwcws/83A8d/sDCY6gcLg0kwHyoHEoBIgUSggiDh+VBjgMIwQZghYMB+hIF8AABJKyB+OnNcUQAAAABJRU5ErkJggg==");
+}
+
+#merriam-webster-id .nav-link:hover .fa-angle-down {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUBAMAAAB/pwA+AAAAMFBMVEUAAACtvMWtvMWtvMWtvMWtvMWtvMWtvMWtvMWtvMWtvMWtvMWtvMWtvMWtvMWtvMVQjYvaAAAAD3RSTlMAAQIECiMlYWJ3psPc3v2CpcpnAAAARklEQVQIW2NgIAgUoLQBg9QVCIvjGUP8Xwcws/83A8d/sDCY6gcLg0kwHyoHEoBIgUSggiDh+VBjgMIwQZghYMB+hIF8AABJKyB+OnNcUQAAAABJRU5ErkJggg==");
+}
+
+#merriam-webster-id .age-popup .fa-angle-down {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJBAMAAAASvxsjAAAAMFBMVEUAAACuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABWuABW9jXgDAAAAEHRSTlMAAggLDA8WHh8id6avsOvxCeC9RwAAACtJREFUCFtjYAADFiA2YNBrYODawMD2nGGtAAND3qyDQEG2PwIg+UAGFAAAwWsGc9XhXD4AAAAASUVORK5CYII=");
+	width: 9px;
+	height: 14px;
+}
+
+#merriam-webster-id .round-button .fa-angle-right {
+	width: 13px;
+	height: 22px;
+}
+
+#merriam-webster-id .round-button:hover .fa-angle-right {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAP1BMVEUAAAD///////////////////////////////////////////////////////////////////////////////9Du/pqAAAAFHRSTlMAAQsOFBheY3h5e4WGiLfD197g6AKE2vwAAAA4SURBVBhXY2DAAlgFmFEF2ESE0US4iBDhxBDhICzCKCjChyLAKyLEhI/PQ4DPjcZnR+MzsPAj8QFk4gLFdH6sXAAAAABJRU5ErkJggg==");
+}
+
+#merriam-webster-id .anchor-list .fa-chevron-down,
+#merriam-webster-id .def-blue .fa-chevron-down,
+#merriam-webster-id .explorer-wrapper .fa-chevron-down {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAJ1BMVEUAAABTgp1Tgp1Tgp1Tgp1Tgp1Tgp1Tgp1Tgp1Tgp1Tgp1Tgp1Tgp2RgECWAAAADHRSTlMAAQIFRkyJm53HyMogFRo2AAAAU0lEQVQI12NgwA0YU0CkmwADx5kABgbWMwUM0meOMjDEnNnIwLznTADrmdMGDAzWZ47GnNkMVAcUOnPKAKTD6syZxWADmNdABIBCk6FmMikw4AUAx/wWUqbJxEIAAAAASUVORK5CYII=");
+}
+
+#merriam-webster-id .anchor-list .fa-chevron-right,
+#merriam-webster-id .def-blue .fa-chevron-right,
+#merriam-webster-id .explorer-wrapper .fa-chevron-right {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAANlBMVEUAAABTgp1Tgp1Tgp1Tgp1Tgp1Tgp1Tgp1Tgp1Tgp1Tgp1Tgp1Tgp1Tgp1Tgp1Tgp1Tgp1Tgp0k2SjbAAAAEXRSTlMAAgMEBwpPcXuDjMPF0dPV/f8KXjEAAAA7SURBVBhXtci3AQAgDANBkXPw/sviDkxHgSrdAzylIWbqsCIUIlkyfSpucvHbtrHz4f5mjMuIl4GQ9l8ZqQQPxc3QUgAAAABJRU5ErkJggg==");
+}
+
+#merriam-webster-id .animated {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+#merriam-webster-id .animated-faster {
+	-webkit-animation-duration: .5s;
+	animation-duration: .5s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+#merriam-webster-id .fadeIn {
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeOut {
+	0% {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+
+@keyframes fadeOut {
+	0% {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+
+#merriam-webster-id .fadeOut {
+	-webkit-animation-name: fadeOut;
+	animation-name: fadeOut;
+}
+
+@-webkit-keyframes fadeInRight {
+	0% {
+		opacity: 0;
+		transform: translate3d(100%, 0, 0);
+	}
+
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+@keyframes fadeInRight {
+	0% {
+		opacity: 0;
+		transform: translate3d(100%, 0, 0);
+	}
+
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+#merriam-webster-id .fadeInRight {
+	-webkit-animation-name: fadeInRight;
+	animation-name: fadeInRight;
+}
+
+@-webkit-keyframes fadeOutRight {
+	0% {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+		transform: translate3d(100%, 0, 0);
+	}
+}
+
+@keyframes fadeOutRight {
+	0% {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+		transform: translate3d(100%, 0, 0);
+	}
+}
+
+#merriam-webster-id .fadeOutRight {
+	-webkit-animation-name: fadeOutRight;
+	animation-name: fadeOutRight;
+}
+
+@-webkit-keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		transform: translate3d(0, 100%, 0);
+	}
+
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		transform: translate3d(0, 100%, 0);
+	}
+
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+#merriam-webster-id .fadeInUp {
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+}
+
+@-webkit-keyframes fadeOutDown {
+	0% {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+		transform: translate3d(0, 100%, 0);
+	}
+}
+
+@-webkit-keyframes fadeInUp50 {
+	0% {
+		opacity: 0;
+		transform: translate3d(0, 100%, 0);
+	}
+
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+@keyframes fadeInUp50 {
+	0% {
+		opacity: 0;
+		transform: translate3d(0, 50%, 0);
+	}
+
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+#merriam-webster-id .fadeInUp50 {
+	-webkit-animation-name: fadeInUp50;
+	animation-name: fadeInUp50;
+}
+
+@keyframes fadeOutDown {
+	0% {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+		transform: translate3d(0, 100%, 0);
+	}
+}
+
+#merriam-webster-id .fadeOutDown {
+	-webkit-animation-name: fadeOutDown;
+	animation-name: fadeOutDown;
+}
+
+#merriam-webster-id #definition-fixed-wrapper.fixed-wrapper {
+	background-image: url(https://merriam-webster.com/assets/mw/static/app-css-images/definitions/Pattern_1x.png);
+	padding: 25px 0 5px;
+}
+
+#merriam-webster-id #definition-fixed-wrapper.fixed-wrapper > div:after {
+	display: none;
+}
+
+#merriam-webster-id #definition-fixed-wrapper.fixed-wrapper > div:last-child {
+	margin-bottom: 0;
+}
+
+#merriam-webster-id #definition-fixed-wrapper.fixed-wrapper .rail-abl-box,
+#merriam-webster-id #definition-fixed-wrapper.fixed-wrapper .wgt-side {
+	width: 300px;
+	background-color: #fff;
+	margin: 0 auto 30px;
+}
+
+#merriam-webster-id #definition-right-rail {
+	margin-bottom: 120px;
+}
+
+#merriam-webster-id #definition-right-rail #M300250BOT-sticky {
+	padding: 25px 0;
+	background-image: url(https://merriam-webster.com/assets/mw/static/app-css-images/definitions/Pattern_1x.png);
+}
+
+#merriam-webster-id #definition-right-rail #M300250BOT-sticky .wgt-games-side,
+#merriam-webster-id #definition-right-rail #M300250BOT-sticky .wgt-wap-side-trending {
+	background-color: #fff;
+	margin: 30px auto 0;
+	width: 300px;
+}
+
+#merriam-webster-id #definition-fixed-wrapper.non-sticky .wgt-side {
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+
+#merriam-webster-id #definition-fixed-wrapper.non-sticky #M300250BOT-sticky {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 25px;
+}
+
+#merriam-webster-id .noAds #definition-right-rail #M300250BOT-sticky {
+	padding-bottom: 25px;
+}
+
+#merriam-webster-id .noAds #definition-right-rail #M300250BOT-sticky .wgt-games-side,
+#merriam-webster-id .noAds #definition-right-rail #M300250BOT-sticky .wgt-wap-side-trending {
+	margin-top: 0;
+}
+
+#merriam-webster-id #M300250BOT-sticky-wrapper-2 {
+	height: 900px;
+	width: 100%;
+	background-color: #fff;
+	position: relative;
+	display: none;
+}
+
+@media (max-width: 575px) {
+	#merriam-webster-id #definition-right-rail > div,
+  #merriam-webster-id .M-S-XS-full-width {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 576px) {
+	#merriam-webster-id #definition-right-rail > div,
+  #merriam-webster-id .M-S-XS-full-width {
+		margin-left: -151px;
+		margin-right: -151px;
+	}
+}
+
+@media (max-width: 991px) {
+	#merriam-webster-id #M300250BOT-sticky-wrapper {
+		height: auto!important;
+	}
+
+	#merriam-webster-id #definition-right-rail {
+		background-image: url(https://merriam-webster.com/assets/mw/static/app-css-images/definitions/Pattern_1x.png);
+	}
+
+	#merriam-webster-id #definition-right-rail #M300250BOT-sticky,
+  #merriam-webster-id #definition-right-rail .fixed-wrapper {
+		background: none;
+	}
+}
+
+@media (min-width: 992px) {
+	#merriam-webster-id #definition-right-rail {
+		margin-bottom: 180px;
+	}
+
+	#merriam-webster-id #definition-right-rail #M300250BOT-sticky {
+		padding-bottom: 0;
+	}
+
+	#merriam-webster-id #definition-right-rail #M300250BOT-sticky.noExtraAd {
+		padding-bottom: 25px;
+	}
+
+	#merriam-webster-id #M300250BOT-sticky-2.is_stuck,
+  #merriam-webster-id #M300250BOT-sticky.is_stuck {
+		top: 110px;
+		position: fixed;
+		width: 370px;
+		z-index: 1;
+	}
+
+	#merriam-webster-id #M300250BOT-sticky-2.bottomed,
+  #merriam-webster-id #M300250BOT-sticky.bottomed {
+		position: absolute;
+		top: auto;
+		width: 370px;
+		bottom: 0;
+	}
+
+	#merriam-webster-id #M300250BOT-sticky-wrapper-2 {
+		display: block;
+	}
+
+	#merriam-webster-id #M300250BOT-sticky-2 {
+		padding: 30px 0 25px;
+		background-image: url(https://merriam-webster.com/assets/mw/static/app-css-images/definitions/Pattern_1x.png);
+	}
+
+	#merriam-webster-id #M300250BOT-sticky-2.is_stuck {
+		padding-top: 25px;
+	}
+}
+
+@media (min-width: 1200px) {
+	#merriam-webster-id #M300250BOT-sticky-2.bottomed,
+  #merriam-webster-id #M300250BOT-sticky-2.is_stuck,
+  #merriam-webster-id #M300250BOT-sticky.bottomed,
+  #merriam-webster-id #M300250BOT-sticky.is_stuck {
+		width: 350px;
+	}
+}
+
+@media (max-width: 767px) {
+	#merriam-webster-id .tw-article #definition-right-rail {
+		margin-bottom: 120px;
+	}
+
+	#merriam-webster-id .tw-article #definition-right-rail #definition-fixed-wrapper.fixed-wrapper {
+		padding: 25px 0;
+	}
+}
+
+#merriam-webster-id .wotd-side__subscribe__form__submit {
+	background: #ae0015;
+	border: 0;
+	border-radius: 6px;
+	color: #fff;
+	font-family: Lato, Open Sans, Helvetica, Arial, sans-serif;
+	font-size: .75em;
+	font-weight: 400;
+	height: 38px;
+	letter-spacing: .125em;
+	line-height: .9375em;
+}
+
+#merriam-webster-id .wotd-side__subscribe__form__submit:hover {
+	background: #c42236;
+}
+
+#merriam-webster-id .wotd-side__headword {
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	font-family: Playfair Display,serif;
+	margin-bottom: 10px;
+	color: #265667;
+	font-size: 34px;
+	letter-spacing: .8px;
+	line-height: 34px;
+}
+
+#merriam-webster-id .wotd-side__date,
+#merriam-webster-id .wotd-side__title {
+	color: #375c71;
+	font-family: Lato, Open Sans, Helvetica, Arial, sans-serif;
+	letter-spacing: .177em;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 18px;
+}
+
+#merriam-webster-id .wotd-side {
+	border: 2px solid #bcd4e2;
+	border-radius: 2px;
+	background-color: #fff;
+}
+
+#merriam-webster-id .wotd-side__title {
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	line-height: 1.375em;
+}
+
+#merriam-webster-id .wotd-side__title a {
+	color: inherit;
+}
+
+#merriam-webster-id .wotd-side__divider {
+	border-bottom: 1px solid #97b7c9;
+	display: block;
+	height: 1px;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 80px;
+}
+
+#merriam-webster-id .wotd-side__date {
+	line-height: 1.375em;
+}
+
+#merriam-webster-id .wotd-side__headword {
+	margin: .67em 0;
+	text-align: center;
+	display: inline-block;
+	color: #3b3e41;
+	font-weight: 400;
+	letter-spacing: .07201em;
+}
+
+#merriam-webster-id .wotd-side__headword a {
+	color: inherit;
+}
+
+#merriam-webster-id .wotd-side__headword__pron {
+	background-image: none;
+	margin-left: 5px;
+	width: auto;
+	height: auto;
+	direction: ltr;
+	display: inline-block;
+	line-height: 37px;
+	margin-top: -13px;
+	text-indent: -9999px;
+	vertical-align: middle;
+}
+
+#merriam-webster-id .wotd-side__headword__pron svg {
+	display: block;
+	overflow: visible;
+	width: 26px;
+	height: 26px;
+}
+
+#merriam-webster-id .wotd-side__headword__pron.hoverable:hover .outline {
+	fill: #0f3850;
+}
+
+#merriam-webster-id .wotd-side__headword__pron.hoverable:hover .logo {
+	fill: #97bece;
+	stroke: #97bece;
+}
+
+#merriam-webster-id .wotd-side__headword__pron.hoverable:hover .logo2 {
+	stroke: #97bece;
+}
+
+#merriam-webster-id .wotd-side__headword-wrapper {
+	display: table;
+	margin: 0 auto;
+	table-layout: fixed;
+	vertical-align: middle;
+}
+
+#merriam-webster-id .wotd-side__link {
+	font-size: 16px;
+	color: #3b3e41;
+	line-height: 22px;
+	letter-spacing: 1.1px;
+	text-align: center;
+	margin-bottom: 20px;
+	padding: 0;
+}
+
+#merriam-webster-id .wotd-side__link a {
+	color: #3b3e41;
+	text-decoration: underline;
+}
+
+#merriam-webster-id .wotd-side__link a:hover {
+	color: #265667;
+}
+
+#merriam-webster-id .wotd-side__subscribe {
+	background-color: #e5f0f3;
+	height: 90px;
+	padding: 0 .75em;
+	position: relative;
+}
+
+#merriam-webster-id .wotd-side__subscribe:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 1em;
+	width: 0;
+	height: 0;
+	border-left: 14px solid transparent;
+	border-right: 14px solid transparent;
+	border-top: 7px solid #fff;
+}
+
+#merriam-webster-id .wotd-side__subscribe__lead {
+	color: #0f3850;
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	font-size: .875em;
+	letter-spacing: .0625em;
+	line-height: 1.75em;
+	padding-top: .9375em;
+}
+
+#merriam-webster-id .wotd-side-home .wotd-side__subscribe__lead {
+	color: #618396;
+}
+
+#merriam-webster-id .wotd-side__subscribe__form {
+	display: block;
+	margin-right: 136px;
+	position: relative;
+}
+
+#merriam-webster-id .wotd-side__subscribe__form--arrow {
+	margin-right: 67px;
+}
+
+#merriam-webster-id .wotd-side__subscribe__form__input {
+	background: rgba(255, 255, 255, 0.8);
+	border: 0;
+	border-radius: 2px;
+	font-weight: 400;
+	height: 18px;
+	left: 0;
+	margin-right: .25em;
+	padding: .625em;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	box-sizing: content-box !important;
+}
+
+#merriam-webster-id .wotd-side__subscribe__form__input::-webkit-input-placeholder {
+	color: #000;
+	font-family: Lato, Open Sans, Helvetica, Arial, sans-serif;
+	font-size: .875em;
+	font-weight: 300;
+	letter-spacing: .0625em;
+	line-height: 1.375em;
+}
+
+#merriam-webster-id .wotd-side__subscribe__form__input:-moz-placeholder,
+#merriam-webster-id .wotd-side__subscribe__form__input::-moz-placeholder {
+	color: #000;
+	font-family: Lato, Open Sans, Helvetica, Arial, sans-serif;
+	font-size: .875em;
+	font-weight: 300;
+	letter-spacing: .0625em;
+	line-height: 1.375em;
+}
+
+#merriam-webster-id .wotd-side__subscribe__form__input:-ms-input-placeholder {
+	color: #000;
+	font-family: Lato, Open Sans, Helvetica, Arial, sans-serif;
+	font-size: .875em;
+	font-weight: 300;
+	letter-spacing: .0625em;
+	line-height: 1.375em;
+}
+
+#merriam-webster-id .wotd-side__subscribe__form__submit {
+	float: right;
+	margin-right: -136px;
+	vertical-align: top;
+	width: 106px;
+	font-weight: 700;
+}
+
+#merriam-webster-id .wotd-side__subscribe__form__submit--arrow {
+	background-image: url(https://merriam-webster.com/assets/mw/static/app-css-images/home/subscribe-caret.png);
+	background-position: 17px 12px;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	width: 38px;
+	margin-right: -67px;
+	float: right;
+	vertical-align: top;
+	background-color: #ae0015;
+	border: 0;
+	border-radius: 6px;
+	color: #fff;
+	font-family: Lato, Open Sans, Helvetica, Arial, sans-serif;
+	font-size: .75em;
+	font-weight: 400;
+	height: 38px;
+	letter-spacing: .125em;
+	line-height: .938em;
+}
+
+#merriam-webster-id .wotd-side {
+	padding-top: 20px;
+}
+
+#merriam-webster-id #definition-right-rail .wotd-side__subscribe__form__submit {
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+}
+
+#merriam-webster-id #definition-right-rail .wotd-side__subscribe__form__input {
+	font-size: 15px;
+}
+
+#merriam-webster-id .wgt-wap-side-trending {
+	border-top: 1px solid #97bece;
+	border-bottom: 1px solid #97bece;
+	padding: 20px 0;
+}
+
+#merriam-webster-id .wgt-wap-side-trending a {
+	color: #265667;
+}
+
+#merriam-webster-id .wgt-wap-side-trending a:hover {
+	color: inherit;
+}
+
+#merriam-webster-id .wgt-wap-side-trending .tw-module-headword,
+#merriam-webster-id .wgt-wap-side-trending li:before {
+	color: #265667;
+}
+
+#merriam-webster-id .wgt-wap-side-trending .see-all-cnt a {
+	color: #265667;
+}
+
+#merriam-webster-id .wgt-wap-side-trending .see-all-cnt a:after {
+	background-image: url(https://merriam-webster.com/assets/mwol/images/doublearrow.svg);
+}
+
+#merriam-webster-id .wgt-wap-side-trending-items {
+	margin: 10px 10px 0 32px;
+}
+
+#merriam-webster-id .wgt-wap-side-trending-items ol {
+	list-style-type: none;
+	counter-reset: li;
+	font-size: 18px;
+	font-weight: 700;
+	color: #ae0015;
+	font-family: Lato, Open Sans, Helvetica, Arial, sans-serif;
+}
+
+#merriam-webster-id .wgt-wap-side-trending-items li {
+	padding-left: 8px;
+	margin-bottom: 8px;
+	position: relative;
+}
+
+#merriam-webster-id .wgt-wap-side-trending-items li:before {
+	content: counter(li);
+	counter-increment: li;
+	position: absolute;
+	left: -15px;
+	top: 2px;
+	color: #265667;
+}
+
+#merriam-webster-id .wgt-wap-side-trending-items .tw-module-headword {
+	display: block;
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	color: #265667;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: .67px;
+	line-height: 21px;
+	margin-bottom: 5px;
+}
+
+#merriam-webster-id .wgt-wap-side-trending-items .tw-module-teaser {
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: .87px;
+	font-weight: 400;
+	display: block;
+	color: #3b3e41;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+#merriam-webster-id .wgt-browse-side-slider-block {
+	overflow: hidden;
+	padding: 10px 32px 6px 10px;
+}
+
+#merriam-webster-id .wgt-browse-side-slider-block a {
+	color: #ae0015;
+	font-family: Lato, Open Sans, Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	letter-spacing: 1.35px;
+	line-height: 36px;
+}
+
+#merriam-webster-id .wgt-browse-side-slider-block .hw-text {
+	font-size: 24px;
+	font-weight: 700;
+	letter-spacing: 1.8px;
+	line-height: 48px;
+}
+
+#merriam-webster-id .wgt-games-side {
+	width: 320px;
+	padding: 20px 10px;
+	border-top: 1px solid #97bece;
+	border-bottom: 1px solid #97bece;
+}
+
+#merriam-webster-id .wgt-games-side .jc-wgt-title-type1 a:hover {
+	color: inherit;
+}
+
+#merriam-webster-id .wgt-games-side p.lead {
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: .8px;
+	line-height: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#merriam-webster-id .wgt-games-side .wgts-quiz,
+#merriam-webster-id .wgt-games-side .wgts-quiz-with-answers {
+	border-bottom: 1px solid #dcdedd;
+	padding: 10px 0;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+#merriam-webster-id .wgt-games-side .wgts-quiz {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	padding-bottom: 20px;
+}
+
+#merriam-webster-id .wgt-games-side .wgts-quiz .thumbnail {
+	width: 28%;
+}
+
+#merriam-webster-id .wgt-games-side .wgts-quiz .content {
+	width: 68%;
+}
+
+#merriam-webster-id .wgt-games-side .wgts-quiz .blurb {
+	color: #3b3e41;
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	letter-spacing: .7px;
+	line-height: 16px;
+}
+
+#merriam-webster-id .wgt-games-side .wgts-quiz .to-quiz {
+	text-align: left;
+	color: #265667;
+}
+
+#merriam-webster-id .wgt-games-side .wgts-quiz .to-quiz:after {
+	background-image: url(https://merriam-webster.com/assets/mwol/images/doublearrow.svg);
+}
+
+#merriam-webster-id .wgt-games-side .wgts-quiz.last {
+	border-bottom: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+#merriam-webster-id .wgt-games-side .wgts-quiz-with-answers .wgts-quiz-question {
+	display: flex;
+	align-items: center;
+}
+
+#merriam-webster-id .wgt-games-side .wgts-quiz-with-answers .wgts-quiz-question .wgts-quiz-image {
+	width: 28%;
+}
+
+#merriam-webster-id .wgt-games-side .wgts-quiz-with-answers .wgts-quiz-question .wgts-quiz-image .thumbnail {
+	width: 100%;
+}
+
+#merriam-webster-id .wgt-games-side .wgts-quiz-with-answers .wgts-quiz-question .lead {
+	color: #000;
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: .56px;
+	line-height: 18px;
+	width: 70%;
+	margin-left: 10px;
+}
+
+#merriam-webster-id .wgt-games-side .wgts-quiz-with-answers .content {
+	margin: 10px 0;
+}
+
+#merriam-webster-id .wgt-games-side .wgts-quiz-with-answers .quiz-answer-list li {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+#merriam-webster-id .wgt-games-side .wgts-quiz-with-answers .quiz-answer-list .quiz-answer {
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	line-height: 16px;
+	letter-spacing: .56px;
+	padding: 4px;
+	border: 1px solid #ae0015;
+	border-radius: 6px;
+	font-size: 12px;
+	color: #ae0015;
+	width: 49%;
+	text-align: center;
+}
+
+#merriam-webster-id .additional-content-area .additional-items li .quiz-link {
+	color: #ae0015;
+	display: block;
+	font-family: Lato, Open Sans, Helvetica, Arial, sans-serif;
+	font-size: .75em;
+	font-weight: 700;
+	letter-spacing: .125em;
+	line-height: .9375em;
+	padding-left: 1em;
+	position: relative;
+	text-align: left;
+	text-indent: .3125em;
+	text-transform: uppercase;
+}
+
+#merriam-webster-id .additional-content-area .additional-items li .quiz-link:after {
+	background-image: url(https://merriam-webster.com/assets/mw/static/app-css-images/sidebar/quiz-carat.png);
+	background-position: 100% 0;
+	background-repeat: no-repeat;
+	content: "";
+	display: inline-block;
+	height: 1em;
+	margin-right: .3125em;
+	vertical-align: baseline;
+	width: 1em;
+	vertical-align: top;
+}
+
+#merriam-webster-id .additional-content-area .additional-items li .quiz-link:hover {
+	color: #c42236;
+	text-decoration: none;
+}
+
+#merriam-webster-id .additional-content-area {
+	background-color: #ebebeb;
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+	text-align: center;
+	padding-top: 15px;
+}
+
+#merriam-webster-id .additional-content-area .additional-items {
+	padding-top: 24px;
+}
+
+#merriam-webster-id .additional-content-area .additional-items .items__header,
+#merriam-webster-id .additional-content-area .additional-items h4 {
+	color: #375c71;
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: 2.3px;
+	line-height: 18px;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+#merriam-webster-id .additional-content-area .additional-items .items__header:after,
+#merriam-webster-id .additional-content-area .additional-items h4:after {
+	border-bottom: 1px solid #97b7c9;
+	display: block;
+	height: 1px;
+	margin: 10px auto 27px;
+	max-width: 80px;
+	content: "";
+}
+
+#merriam-webster-id .additional-content-area .additional-items li {
+	margin: 0 auto;
+	max-width: 262px;
+	padding-bottom: 48px;
+}
+
+#merriam-webster-id .additional-content-area .additional-items li a {
+	color: #3b3e41;
+	line-height: 24px;
+	letter-spacing: .85px;
+	margin: 5px 0;
+}
+
+#merriam-webster-id .additional-content-area .additional-items li .quiz-link {
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+#merriam-webster-id .additional-content-area .additional-items .item__title a,
+#merriam-webster-id .additional-content-area .additional-items h5 a {
+	font-size: 18px;
+	font-family: Playfair Display,serif;
+	font-weight: 700;
+	display: block;
+	margin: 10px 0 5px;
+}
+
+@media (min-width: 768px) {
+	#merriam-webster-id .additional-content-area .additional-items {
+		max-width: 1136px;
+		margin: 0 auto;
+	}
+
+	#merriam-webster-id .additional-content-area .additional-items ul {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+	}
+
+	#merriam-webster-id .additional-content-area .additional-items li {
+		margin: 0 10px;
+	}
+
+	#merriam-webster-id .additional-content-area .additional-items li:first-child {
+		margin-left: 0;
+	}
+
+	#merriam-webster-id .additional-content-area .additional-items li:last-child {
+		margin-right: 0;
+	}
+
+	#merriam-webster-id .additional-content-area .additional-items .mell-gr235 {
+		overflow: hidden;
+		height: 52px;
+		line-height: 26px;
+	}
+
+	#merriam-webster-id .additional-content-area .additional-items .mell-gr235:before {
+		content: "";
+		float: left;
+		width: 5px;
+		height: 52px;
+	}
+
+	#merriam-webster-id .additional-content-area .additional-items .mell-gr235 > :first-child {
+		float: right;
+		width: 100%;
+		margin-left: -5px;
+	}
+
+	#merriam-webster-id .additional-content-area .additional-items .mell-gr235:after {
+		content: "\02026";
+		float: right;
+		position: relative;
+		top: -26px;
+		left: 100%;
+		width: 3em;
+		margin-left: -3em;
+		padding-right: 5px;
+		text-align: right;
+		background: #ebebeb;
+		background: linear-gradient(90deg, rgba(235, 235, 235, 0), #ebebeb 50%, #ebebeb);
+	}
+}
+
+#merriam-webster-id #investing-answer {
+	font-family: Lato, Open Sans, Helvetica, Arial, sans-serif;
+	line-height: 1.5em;
+	letter-spacing: .04em;
+	color: #3b3e41;
+}
+
+#merriam-webster-id #investing-answer .section {
+	margin-top: 1.125em;
+}
+
+#merriam-webster-id #investing-answer p {
+	margin-bottom: 30px;
+}
+
+#merriam-webster-id #investing-answer p a {
+	color: #3b3e41;
+	text-decoration: underline;
+}
+
+#merriam-webster-id #investing-answer .ia-image-def {
+	float: right;
+}
+
+#merriam-webster-id #investing-answer .dot {
+	position: relative;
+	display: inline;
+	padding-left: 25px;
+}
+
+#merriam-webster-id #investing-answer .dot:before {
+	content: "•";
+	font-size: 20px;
+	position: absolute;
+	left: 5px;
+	top: 1px;
+}
+
+#merriam-webster-id #investing-answer .source-text {
+	color: #7c7c7c;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: 400;
+}
+
+#merriam-webster-id #investing-answer .source-text a {
+	color: #7c7c7c;
+	text-decoration: underline;
+}
+
+#merriam-webster-id .no-spelling-suggestions .words_fail_us_cont li.secondary {
+	font-size: 2.75em;
+}
+
+#merriam-webster-id .spelling-suggestions .mispelled_word {
+	color: #000;
+	font-family: Playfair Display,serif;
+	font-size: 2.5em;
+	font-weight: 300;
+	letter-spacing: .015em;
+	line-height: 1.2em;
+	margin: -10px 0 0.5em;
+	text-align: left;
+}
+
+#merriam-webster-id .card-box.no-spelling-suggestions .spcl_uppercase:after {
+	background-image: url(https://merriam-webster.com/assets/mw/static/app-css-images/sidebar/quiz-carat.png);
+	background-position: 100% 0;
+	background-repeat: no-repeat;
+	content: "";
+	display: inline-block;
+	height: 1em;
+	margin-right: .3125em;
+	vertical-align: baseline;
+	width: 1em;
+}
+
+#merriam-webster-id .card-box.no-spelling-suggestions .spcl_uppercase,
+#merriam-webster-id .card-box.no-spelling-suggestions a {
+	color: #265667;
+	text-decoration: underline;
+	-webkit-text-decoration-color: #97bece;
+	text-decoration-color: #97bece;
+}
+
+#merriam-webster-id .card-box.no-spelling-suggestions .spcl_uppercase:hover,
+#merriam-webster-id .card-box.no-spelling-suggestions a:hover {
+	-webkit-text-decoration-color: #265667;
+	text-decoration-color: #265667;
+	color: #265667;
+	text-decoration: underline;
+}
+
+#merriam-webster-id .card-box.no-spelling-suggestions,
+#merriam-webster-id .card-box.no-spelling-suggestions .card-primary-content {
+	padding-top: 0;
+}
+
+#merriam-webster-id .card-box.no-spelling-suggestions .words_fail_us_cont.search-results li.secondary {
+	padding-top: .7em;
+}
+
+#merriam-webster-id .card-box.no-spelling-suggestions .words_fail_us_cont {
+	background-color: #fff;
+	margin: 0;
+	padding: 0 0 50px;
+	text-align: center;
+}
+
+#merriam-webster-id .card-box.no-spelling-suggestions .words_fail_us_cont ul {
+	margin: 0;
+	padding: 0;
+}
+
+#merriam-webster-id .card-box.no-spelling-suggestions .words_fail_us_cont li {
+	font-family: Playfair Display,serif;
+	font-weight: 400;
+	color: #375c71;
+}
+
+#merriam-webster-id .card-box.no-spelling-suggestions .words_fail_us_cont li.primary {
+	font-size: 7.5em;
+	margin-bottom: 40px;
+}
+
+#merriam-webster-id .card-box.no-spelling-suggestions .words_fail_us_cont li.secondary {
+	font-size: 3.375em;
+	margin: 0;
+}
+
+#merriam-webster-id .card-box.no-spelling-suggestions .bullet_noindent_list {
+	list-style: disc;
+	padding: 0 0 1.875em 39px;
+}
+
+#merriam-webster-id .card-box.no-spelling-suggestions .bullet_noindent_list li {
+	padding: 0 0 10px;
+	font-weight: 300;
+	font-size: 1.075em;
+	line-height: 1.95em;
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	list-style: disc;
+}
+
+#merriam-webster-id .card-box.no-spelling-suggestions .bullet_noindent_list li:last-child {
+	padding: 0;
+}
+
+#merriam-webster-id .card-box.no-spelling-suggestions p {
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	color: #3b3e41;
+	font-size: 1.075em;
+	line-height: 1.45em;
+	letter-spacing: .063em;
+	font-weight: 400;
+	padding: 0 0 1.875em;
+}
+
+#merriam-webster-id .card-box.no-spelling-suggestions a {
+	font-size: 1.125rem;
+	line-height: 26px;
+	letter-spacing: .063em;
+	font-weight: 400;
+}
+
+#merriam-webster-id .card-box.no-spelling-suggestions .spcl_uppercase {
+	font-size: .815em;
+	font-weight: 700;
+	letter-spacing: .125em;
+	line-height: .75em;
+	text-transform: uppercase;
+}
+
+#merriam-webster-id .card-box.no-spelling-suggestions .spcl_uppercase:after {
+	vertical-align: middle;
+}
+
+@media (min-width: 768px) {
+	#merriam-webster-id .card-box.no-spelling-suggestions .words_fail_us_cont li.secondary {
+		font-size: 4.375em;
+	}
+}
+
+#merriam-webster-id .word-by-word-box {
+	height: 290px;
+	overflow: hidden;
+}
+
+#merriam-webster-id .word-by-word-box .wbw-content {
+	padding-bottom: 20px;
+}
+
+#merriam-webster-id .word-by-word-box .wbw-content li {
+	margin-bottom: 0;
+}
+
+#merriam-webster-id .word-by-word-box .wbw-header {
+	margin-bottom: 20px;
+}
+
+#merriam-webster-id .word-by-word-box .hword {
+	color: #3b3e41;
+	font-family: Playfair Display,serif;
+	font-size: 1.8em;
+	font-weight: 300;
+	letter-spacing: .015em;
+	line-height: 1.2em;
+	text-align: center;
+}
+
+#merriam-webster-id .seen-and-heard-block {
+	overflow: hidden;
+	width: 100%;
+}
+
+#merriam-webster-id .seen-and-heard-block h2,
+#merriam-webster-id .seen-and-heard-block h3 {
+	color: #375c71;
+	font-family: Lato, Open Sans, Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: .9px;
+	font-weight: 700;
+	margin-bottom: 16px;
+}
+
+#merriam-webster-id .seen-and-heard-block p {
+	color: #3b3e41;
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	letter-spacing: .0937em;
+	line-height: 1.25em;
+	margin-bottom: 2.0625em;
+	overflow: hidden;
+}
+
+#merriam-webster-id .toggle-fb-comments {
+	font-family: Lato, Open Sans, Helvetica, Arial, sans-serif;
+	font-size: .75em;
+	font-weight: 700;
+	letter-spacing: .125em;
+	line-height: .9375em;
+	text-transform: uppercase;
+	width: 100%;
+	text-align: left;
+	margin-bottom: 2.0625em;
+	margin-top: 2.0625em;
+	position: relative;
+	min-height: 25px;
+}
+
+#merriam-webster-id .toggle-fb-comments .toggle-link {
+	cursor: pointer;
+	font-weight: 700;
+}
+
+#merriam-webster-id .toggle-fb-comments .fb-comment-count,
+#merriam-webster-id .toggle-fb-comments .toggle-link {
+	color: #ae0015;
+	display: inline-block;
+}
+
+#merriam-webster-id .toggle-fb-comments .fb-comments-container {
+	margin-top: 10px;
+	display: none;
+}
+
+#merriam-webster-id .toggle-fb-comments .fb-comments-container iframe {
+	width: 100%!important;
+}
+
+#merriam-webster-id .toggle-fb-comments.display-comments .fb-comment-count,
+#merriam-webster-id .toggle-fb-comments.display-comments .show-comment,
+#merriam-webster-id .toggle-fb-comments .hide-comment {
+	display: none;
+}
+
+#merriam-webster-id .toggle-fb-comments.display-comments .hide-comment,
+#merriam-webster-id .toggle-fb-comments.display-comments.loaded .fb-comments-container,
+#merriam-webster-id .toggle-fb-comments.loading {
+	display: block;
+}
+
+#merriam-webster-id .toggle-fb-comments.loading .mw-loader {
+	display: block;
+	margin-top: 10px;
+	position: relative;
+	top: 0;
+	left: 75px;
+}
+
+#merriam-webster-id .toggle-fb-comments.loaded .mw-loader {
+	display: none;
+}
+
+#merriam-webster-id .mw-loader {
+	display: none;
+	width: 20px;
+	height: 20px;
+	cursor: wait;
+}
+
+#merriam-webster-id .mw-loader:after {
+	content: " ";
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border-color: #265667 transparent;
+	border-style: solid;
+	border-width: 2px;
+	-webkit-animation: mw-loader-animate 1.2s linear infinite;
+	animation: mw-loader-animate 1.2s linear infinite;
+}
+
+@-webkit-keyframes mw-loader-animate {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(1turn);
+	}
+}
+
+@keyframes mw-loader-animate {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(1turn);
+	}
+}
+
+#merriam-webster-id #subscribe-unabridged {
+	max-width: 1136px;
+	text-align: center;
+	margin: 2em auto;
+	border-top: 1px solid #cbe1ea;
+	border-bottom: 1px solid #cbe1ea;
+	padding: 25px 10px;
+	overflow: hidden;
+	width: 100%;
+}
+
+#merriam-webster-id #subscribe-unabridged .header {
+	font-size: 22px;
+	line-height: 1.2;
+	font-weight: 700;
+	letter-spacing: .2px;
+}
+
+#merriam-webster-id #subscribe-unabridged .header,
+#merriam-webster-id #subscribe-unabridged .teaser {
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	color: #375c71;
+}
+
+#merriam-webster-id #subscribe-unabridged .teaser {
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 400;
+	letter-spacing: .4px;
+	margin: 4px 0 22px;
+}
+
+#merriam-webster-id #subscribe-unabridged .subscribe-btn {
+	background-color: #ae0015;
+	border-radius: .5em;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 12px;
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	letter-spacing: 2px;
+	padding: 8px 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+#merriam-webster-id #subscribe-unabridged .subscribe-btn:hover {
+	background: #c42236;
+}
+
+@media (min-width: 768px) {
+	#merriam-webster-id #subscribe-unabridged .header {
+		font-size: 26px;
+	}
+
+	#merriam-webster-id #subscribe-unabridged .teaser {
+		font-size: 18px;
+	}
+}
+
+#merriam-webster-id #subscribe-overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9999999;
+}
+
+#merriam-webster-id #subscribe-overlay .underlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: .6;
+	background-color: #9b9b9b;
+	cursor: pointer;
+}
+
+#merriam-webster-id #subscribe-overlay .subscribe-modal {
+	width: 700px;
+	height: 483px;
+	background-color: #fff;
+	z-index: 1;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	-webkit-animation: fadeIn .3s;
+	animation: fadeIn .3s;
+}
+
+#merriam-webster-id #subscribe-overlay .subscribe-modal .overlay-close {
+	cursor: pointer;
+	font-family: Lato, Open Sans, Helvetica, Arial, sans-serif;
+	font-size: 35px;
+	line-height: 1.2;
+	font-weight: 400;
+	text-decoration: none;
+	color: #ae0015;
+	position: absolute;
+	right: 15px;
+	top: 0;
+	z-index: 10;
+}
+
+#merriam-webster-id #subscribe-overlay .subscribe-modal .overlay-close-link {
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	color: #303336;
+	letter-spacing: 0;
+	display: inline-block;
+	margin-top: 20px;
+	border-bottom: 1px solid #c6c6c6;
+	cursor: pointer;
+}
+
+#merriam-webster-id #subscribe-overlay .subscribe-modal .overlay-close-link:hover {
+	border-bottom: 1px solid #303336;
+}
+
+#merriam-webster-id #subscribe-overlay .subscribe-modal .overlay-box {
+	background-color: #fff;
+	box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	display: flex;
+}
+
+#merriam-webster-id #subscribe-overlay .subscribe-modal .overlay-left {
+	flex-basis: 400px;
+	flex-grow: 0;
+	flex-shrink: 1;
+	position: relative;
+	overflow: hidden;
+	background-image: linear-gradient(211deg, #f7eee7, #ded6d7);
+	padding: 8px;
+	box-sizing: border-box;
+}
+
+#merriam-webster-id #subscribe-overlay .subscribe-modal .overlay-right {
+	flex-basis: 300px;
+	flex-grow: 0;
+	flex-shrink: 1;
+	overflow: hidden;
+}
+
+#merriam-webster-id #subscribe-overlay .subscribe-modal .overlay-image {
+	display: flex;
+	align-items: flex-end;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-image: url(https://merriam-webster.com/assets/mw/static/newsletter/subscribe-overlay-cat-reduced.jpg);
+	background-repeat: no-repeat;
+}
+
+#merriam-webster-id #subscribe-overlay .subscribe-modal .overlay-image-spacing {
+	width: 100%;
+	height: 100%;
+	padding: 8px;
+	box-sizing: border-box;
+	border: 1px solid #fff;
+}
+
+#merriam-webster-id #subscribe-overlay .subscribe-modal .overlay-subscribe b {
+	display: inline-block;
+}
+
+#merriam-webster-id #subscribe-overlay .subscribe-modal .word-wrapper {
+	display: none;
+	width: 100%;
+	font-size: 20px;
+	line-height: 1.5;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #fff;
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+}
+
+#merriam-webster-id #subscribe-overlay .subscribe-modal .word {
+	font-family: Playfair Display,serif;
+	font-size: 80px;
+	letter-spacing: 1.3px;
+	text-align: center;
+	color: #f9f9f9;
+	font-weight: 400;
+	line-height: 1;
+}
+
+#merriam-webster-id #subscribe-overlay .subscribe-modal .def {
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	font-size: 23px;
+	line-height: 1;
+	letter-spacing: .5px;
+	text-align: center;
+	color: #fff;
+	padding: 10px 40px 20px;
+	box-sizing: border-box;
+}
+
+#merriam-webster-id #subscribe-overlay .subscribe-modal .pr-syl .pr {
+	margin-right: 5px;
+}
+
+#merriam-webster-id #subscribe-overlay .subscribe-modal .pr-syl .syl {
+	margin-left: 5px;
+}
+
+#merriam-webster-id #subscribe-overlay .subscribe-modal .overlay-form {
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	font-size: 22px;
+	line-height: 1.36;
+	letter-spacing: .7px;
+	text-align: center;
+	color: #3b3e41;
+	position: relative;
+	top: 60px;
+	padding: 0 20px;
+}
+
+#merriam-webster-id #subscribe-overlay .subscribe-modal .overlay-form.subscribed-msg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	top: 0;
+}
+
+#merriam-webster-id #subscribe-overlay .subscribe-modal p {
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	font-size: 22px;
+	line-height: 1.36;
+	letter-spacing: .7px;
+	text-align: center;
+	color: #3b3e41;
+	margin-bottom: 30px;
+}
+
+#merriam-webster-id #subscribe-overlay .subscribe-modal .subscribe-box {
+	margin-top: 45px;
+	width: 100%;
+}
+
+#merriam-webster-id #subscribe-overlay .subscribe-modal .subcribe-email {
+	border-radius: 4px;
+	background-color: #fff;
+	border: 1px solid #dadada;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	text-align: center;
+	font-weight: 400;
+	padding: 11px;
+	margin-bottom: 8px;
+}
+
+#merriam-webster-id #subscribe-overlay .subscribe-modal .subcribe-email::-webkit-input-placeholder {
+	color: #9b9b9b;
+}
+
+#merriam-webster-id #subscribe-overlay .subscribe-modal .subcribe-email:-moz-placeholder,
+#merriam-webster-id #subscribe-overlay .subscribe-modal .subcribe-email::-moz-placeholder {
+	color: #9b9b9b;
+}
+
+#merriam-webster-id #subscribe-overlay .subscribe-modal .subcribe-email:-ms-input-placeholder {
+	color: #9b9b9b;
+}
+
+#merriam-webster-id #subscribe-overlay .subscribe-modal .subscribe-btn {
+	width: 100%;
+	height: 40px;
+	border: 0;
+	border-radius: 6px;
+	background-color: #ae0015;
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: 1.9px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	text-transform: uppercase;
+	box-sizing: border-box;
+}
+
+#merriam-webster-id #subscribe-overlay .subscribe-modal .sub-msg {
+	display: none;
+}
+
+#merriam-webster-id #subscribe-overlay .subscribe-modal .success-message p {
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+
+#merriam-webster-id #subscribe-overlay .subscribe-modal .resent-confirmation-message b {
+	font-size: 16px;
+}
+
+#merriam-webster-id #subscribe-overlay .subscribe-modal .resent-confirmation-message p {
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+#merriam-webster-id .recirc-card {
+	width: 210px;
+	background-color: #fff;
+	box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+	box-sizing: border-box;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	z-index: 999;
+	visibility: hidden;
+}
+
+#merriam-webster-id .recirc-card.active {
+	visibility: visible;
+}
+
+#merriam-webster-id .recirc-card a,
+#merriam-webster-id .recirc-card a:hover {
+	text-decoration: none;
+}
+
+#merriam-webster-id .recirc-card .recirc-header {
+	width: 100%;
+	text-transform: uppercase;
+	height: 20px;
+	line-height: 20px;
+	background-color: #2d5f7c;
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 1.3px;
+	color: #fff;
+	text-indent: 14px;
+}
+
+#merriam-webster-id .recirc-card .recirc-header .imgarrow {
+	background-image: url(https://merriam-webster.com/assets/mw/static/app-css-images/global/imgarrow.svg);
+	width: 7px;
+	height: 10px;
+	display: inline-block;
+	position: relative;
+	top: 1px;
+}
+
+#merriam-webster-id .recirc-card .recirc-item {
+	display: none;
+}
+
+#merriam-webster-id .recirc-card .recirc-item.active {
+	display: block;
+}
+
+#merriam-webster-id .recirc-card .recirc-content {
+	padding: 14px;
+}
+
+#merriam-webster-id .recirc-card .recirc-content .recirc-title {
+	font-family: Playfair Display,serif;
+	font-weight: 700;
+	line-height: 1.2;
+	font-size: 20px;
+	letter-spacing: .05266em;
+	color: #0a1b27;
+	padding-top: 8px;
+}
+
+#merriam-webster-id .recirc-card .recirc-content .recirc-img {
+	height: 121px;
+	width: 181.5px;
+}
+
+#merriam-webster-id .recirc-card .recirc-close {
+	width: 30px;
+	height: 30px;
+	opacity: .95;
+	background-color: #fff;
+	box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.15);
+	border: 1px solid #2d5f7c;
+	text-align: center;
+	box-sizing: border-box;
+	position: absolute;
+	right: 0;
+	top: -29px;
+}
+
+#merriam-webster-id .recirc-card .recirc-close:hover {
+	cursor: pointer;
+}
+
+#merriam-webster-id .recirc-card .recirc-close .iconx {
+	background-image: url(https://merriam-webster.com/assets/mw/static/app-css-images/global/iconx.svg);
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+	margin-top: 7px;
+}
+
+@media (max-width: 47.9375em) {
+	#merriam-webster-id .recirc-card {
+		width: 285px;
+		height: 120px;
+		bottom: 65px;
+	}
+
+	#merriam-webster-id .recirc-card .recirc-header {
+		text-indent: 8px;
+	}
+
+	#merriam-webster-id .recirc-card .recirc-content {
+		padding: 0;
+		margin: 8px;
+		height: 84px;
+		overflow: hidden;
+		box-sizing: border-box;
+	}
+
+	#merriam-webster-id .recirc-card .recirc-content .recirc-img {
+		display: table-cell;
+		width: 126px;
+		height: 84px;
+		float: left;
+	}
+
+	#merriam-webster-id .recirc-card .recirc-content .recirc-title {
+		vertical-align: middle;
+		display: table-cell;
+		font-size: 16px;
+		padding-left: 8px;
+		padding-top: 0;
+		height: 84px;
+		overflow: hidden;
+		line-height: 20px;
+	}
+
+	#merriam-webster-id .recirc-card .recirc-close {
+		width: 24px;
+		height: 24px;
+		top: -23px;
+	}
+
+	#merriam-webster-id .recirc-card .recirc-close .iconx {
+		width: 12px;
+		height: 12px;
+		margin-top: 5px;
+	}
+}
+
+#merriam-webster-id #gist-note {
+	border: 4px solid #cbe1ea;
+}
+
+#merriam-webster-id #gist-note ul {
+	margin-top: -0.625em;
+}
+
+#merriam-webster-id #gist-note p {
+	line-height: 1.38;
+	letter-spacing: .6px;
+	color: #3b3e41;
+	margin-bottom: 1.1875em;
+	font-size: 1em;
+	font-weight: 400;
+}
+
+#merriam-webster-id #gist-note a {
+	letter-spacing: .04em;
+	font-weight: 400;
+}
+
+#merriam-webster-id #gist-note li {
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.62;
+	letter-spacing: .6px;
+	color: #3b3e41;
+	font-weight: 400;
+	padding-top: .1em;
+	list-style-type: disc;
+	list-style-position: outside;
+	margin-left: 25px;
+}
+
+#merriam-webster-id #trail-info {
+	margin-top: 20px;
+}
+
+#merriam-webster-id #trial-form {
+	text-align: center;
+	margin-top: 30px;
+}
+
+#merriam-webster-id #trial-form .already-subscribed-link {
+	font-size: 10px;
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 2.6;
+	letter-spacing: .8px;
+	text-align: center;
+	color: #9b9b9b;
+	display: block;
+	margin-top: 4px;
+}
+
+#merriam-webster-id #trial-btn {
+	width: 250px;
+	font-weight: 600;
+	letter-spacing: 1.7px;
+	text-align: center;
+	text-transform: uppercase;
+	display: inline-block;
+	background: #ae0015;
+	border: 0;
+	border-radius: 6px;
+	color: #fff;
+	font-family: Lato, Open Sans, Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	height: 38px;
+}
+
+#merriam-webster-id .scroll-video-pin,
+#merriam-webster-id .scroll-video-unpin {
+	display: none;
+}
+
+#merriam-webster-id .scroll-video .video-player {
+	background-color: #fdfdfd;
+}
+
+#merriam-webster-id .scroll-video .jwplayer {
+	z-index: 3;
+}
+
+#merriam-webster-id .scroll-video .scroll-video-pin {
+	display: block;
+	background: transparent;
+	position: fixed;
+}
+
+#merriam-webster-id .scroll-video .scroll-video-pin.pinned {
+	background: #000;
+	position: fixed;
+	transition: left .1s,width .1s ease,height .1s ease;
+	width: 300px;
+	z-index: 2;
+}
+
+#merriam-webster-id .scroll-video .scroll-video-unpin {
+	display: block;
+	background: transparent;
+	height: 0;
+	position: absolute;
+	width: 0;
+	right: 0;
+	top: 0;
+}
+
+#merriam-webster-id .scroll-video .scroll-video-unpin.unpinned {
+	background: #000;
+	opacity: 0;
+	position: absolute;
+	transition: top 0.1s, left 0.1s, width 0.1s ease, height 0.1s ease, opacity 0.3s ease-in;
+	z-index: 2;
+}
+
+#merriam-webster-id .scroll-video .pinned-video {
+	position: fixed;
+	z-index: 11;
+	background: #000;
+}
+
+#merriam-webster-id .scroll-video .pinned-video.hidden {
+	display: block!important;
+}
+
+#merriam-webster-id .scroll-video .video-player {
+	position: relative;
+}
+
+#merriam-webster-id .scroll-video .video-play-link.is-visible {
+	z-index: 5;
+}
+
+#merriam-webster-id .js-wod-subscribe-frm.subscribed {
+	position: relative;
+}
+
+#merriam-webster-id .js-wod-subscribe-frm.subscribed input {
+	visibility: hidden;
+}
+
+#merriam-webster-id .js-wod-subscribe-frm .subscribed-msg {
+	position: absolute;
+	top: 0;
+	width: 272px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 700;
+	margin-top: 10px;
+	margin-right: 0!important;
+}
+
+#merriam-webster-id .js-wod-subscribe-frm.footer-subscribe .subscribed-msg {
+	color: #fff;
+}
+
+#merriam-webster-id .js-wod-subscribe-frm.footer-subscribe-def.subscribed .footer-subscribe-button-def {
+	visibility: hidden;
+}
+
+#merriam-webster-id .js-wod-subscribe-frm.footer-subscribe-def.subscribed p.subscribed-msg {
+	margin-top: -2px;
+	margin-left: 17px;
+	justify-content: start;
+}
+
+#merriam-webster-id .word-of-day-subscribe-block .subscribed {
+	width: 100%;
+}
+
+#merriam-webster-id .busy1 {
+	cursor: progress!important;
+	opacity: .5;
+}
+
+#merriam-webster-id .related-video h2 {
+	font-weight: 700;
+	font-family: Lato, Open Sans, Helvetica, Arial, sans-serif;
+	color: #375c71;
+	font-size: 20px;
+	letter-spacing: .9px;
+}
+
+#merriam-webster-id .related-video .video-play-link {
+	display: none;
+	position: relative;
+}
+
+#merriam-webster-id .related-video .video-play-link.is-visible {
+	display: block;
+}
+
+#merriam-webster-id .related-video .video-play-link .vp-icon {
+	position: relative;
+	background: url(https://merriam-webster.com/assets/mw/static/app-css-images/home/video-play-button.png) 0 0 no-repeat;
+	background-size: cover;
+	display: block;
+	left: 50%;
+	margin-top: -31px;
+	margin-left: -31px;
+	overflow: hidden;
+	position: absolute;
+	text-indent: -9999px;
+	top: 50%;
+	height: 62px;
+	width: 62px;
+	z-index: 1;
+}
+
+#merriam-webster-id .related-video .video-play-link img {
+	vertical-align: top;
+	width: 100%;
+}
+
+#merriam-webster-id .related-video .video-play-link:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #3b3e41;
+	opacity: 0;
+	transition: opacity .3s;
+}
+
+#merriam-webster-id .related-video .video-play-link:hover .vp-icon {
+	background-position: 0 100%;
+}
+
+#merriam-webster-id .related-video .video-play-link:hover:after {
+	opacity: .2;
+}
+
+#merriam-webster-id .related-video-content {
+	display: flex;
+	justify-content: center;
+	box-sizing: border-box;
+}
+
+#merriam-webster-id .related-video-content .video-player {
+	flex-basis: 600px;
+	flex-shrink: 1;
+	flex-grow: 0;
+	box-sizing: border-box;
+}
+
+#merriam-webster-id .related-video-content .video-body {
+	padding: 8px 0 8px 15px;
+	flex-basis: 40%;
+	box-sizing: border-box;
+	flex-grow: 1;
+	flex-shrink: 1;
+	align-self: center;
+}
+
+#merriam-webster-id .related-video-content .video-title {
+	font-family: Playfair Display,serif;
+	font-weight: 600;
+	line-height: 1.2;
+	font-size: 20px;
+	color: #3b3e41;
+	padding: 8px 0;
+}
+
+@media (max-width: 64em) {
+	#merriam-webster-id .related-video-content {
+		flex-wrap: wrap;
+	}
+
+	#merriam-webster-id .related-video-content .video-player {
+		margin-bottom: 15px;
+	}
+
+	#merriam-webster-id .related-video-content .video-body {
+		flex-basis: 100%;
+		padding: 0;
+		text-align: center;
+	}
+}
+
+#merriam-webster-id .follow-us p,
+#merriam-webster-id .footer-dictionaries p {
+	color: #cbe1ea;
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	font-size: .6875em;
+	font-weight: 700;
+	letter-spacing: .1875em;
+	line-height: .1875;
+	margin-bottom: 1em;
+}
+
+#merriam-webster-id .global-footer {
+	background: #525a5b;
+	width: 100%;
+}
+
+#merriam-webster-id .global-footer .footer-foot-content,
+#merriam-webster-id .global-footer .footer-mast {
+	margin: 0 auto;
+	max-width: 1136px;
+	width: 100%;
+}
+
+#merriam-webster-id .global-footer .footer-mast {
+	padding-bottom: 2.625em;
+}
+
+#merriam-webster-id .global-footer .copyright {
+	clear: left;
+	color: #c6c6c6;
+	display: block;
+	float: none;
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	font-size: .8125em;
+	letter-spacing: .03em;
+	line-height: 1.375em;
+	margin-bottom: 1em;
+	text-align: center;
+	width: 100%;
+}
+
+@media (max-width: 767px) {
+	#merriam-webster-id .global-footer .copyright {
+		padding-bottom: 50px;
+	}
+}
+
+#merriam-webster-id .global-footer .footer-copy {
+	text-align: center;
+	margin-bottom: 1em;
+	padding: 0 .8em;
+}
+
+#merriam-webster-id .global-footer .footer-copy p {
+	color: #97bece;
+	display: block;
+	float: none;
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	font-size: .8125em;
+	letter-spacing: .03em;
+	line-height: 1.375em;
+}
+
+#merriam-webster-id .global-footer .lazyload .footer-logo,
+#merriam-webster-id .global-footer .lazyload .social-link {
+	background-image: none!important;
+}
+
+#merriam-webster-id .footer-mast .mw-logo-section {
+	display: block;
+	float: left;
+	margin-left: .9375em;
+	width: 15%;
+}
+
+#merriam-webster-id .footer-mast .mw-logo-section .footer-logo {
+	background-image: url(https://merriam-webster.com/assets/mw/static/app-css-images/logos/MWLogo-BW.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	color: #fff;
+	direction: ltr;
+	display: block;
+	height: 132px;
+	margin-top: 4.625em;
+	text-indent: -9999px;
+	width: 132px;
+}
+
+#merriam-webster-id .footer-mast .footer-mast-content {
+	float: left;
+	margin-right: .9375em;
+	width: 80%;
+}
+
+#merriam-webster-id .footer-dictionaries {
+	float: left;
+	width: 65%;
+}
+
+#merriam-webster-id .follow-us {
+	float: right;
+}
+
+#merriam-webster-id .follow-us ul {
+	height: 60px;
+	width: 100%;
+}
+
+#merriam-webster-id .follow-us ul li {
+	float: left;
+	height: 60px;
+	margin-left: .25em;
+	margin-right: .5em;
+	width: 60px;
+}
+
+#merriam-webster-id .follow-us ul li :last-child {
+	margin-right: 0;
+}
+
+#merriam-webster-id .follow-us .social-link {
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: contain;
+	color: #cfe0e8;
+	direction: ltr;
+	display: block;
+	height: 60px;
+	text-indent: -9999px;
+	width: 59px;
+}
+
+#merriam-webster-id .follow-us .social-fb {
+	background-image: url(https://merriam-webster.com/assets/mw/static/app-css-images/definitions/fb-footer-icon.png);
+}
+
+#merriam-webster-id .follow-us .social-tw {
+	background-image: url(https://merriam-webster.com/assets/mw/static/app-css-images/definitions/tw-footer-icon.png);
+}
+
+#merriam-webster-id .follow-us .social-play {
+	background-image: url(https://merriam-webster.com/assets/mw/static/app-css-images/definitions/gplay-footer-icon.png);
+}
+
+#merriam-webster-id .follow-us .social-ig {
+	background-image: url(https://merriam-webster.com/assets/mw/static/app-css-images/definitions/ig-footer-icon.png);
+}
+
+#merriam-webster-id .follow-us .social-fb:hover {
+	background-image: url(https://merriam-webster.com/assets/mw/static/app-css-images/definitions/fb-footer-icon-hover.png);
+}
+
+#merriam-webster-id .follow-us .social-tw:hover {
+	background-image: url(https://merriam-webster.com/assets/mw/static/app-css-images/definitions/tw-footer-icon-hover.png);
+}
+
+#merriam-webster-id .follow-us .social-play:hover {
+	background-image: url(https://merriam-webster.com/assets/mw/static/app-css-images/definitions/gplay-footer-icon-hover.png);
+}
+
+#merriam-webster-id .follow-us .social-ig:hover {
+	background-image: url(https://merriam-webster.com/assets/mw/static/app-css-images/definitions/ig-footer-icon-hover.png);
+}
+
+#merriam-webster-id .footer-foot {
+	background-color: #303336;
+	min-height: 105px;
+}
+
+#merriam-webster-id .footer-foot .footer-menu {
+	letter-spacing: .0312em;
+	line-height: 1.375em;
+	margin: 1em auto;
+	max-width: 1004px;
+	min-height: 23px;
+	text-align: center;
+}
+
+#merriam-webster-id .footer-foot .footer-menu li {
+	display: inline-block;
+	float: none;
+}
+
+#merriam-webster-id .other-dictionaries ul {
+	float: left;
+	margin-bottom: 2.625em;
+	margin-right: 3.07em;
+}
+
+#merriam-webster-id .other-dictionaries ul a {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: .125em;
+	line-height: 22px;
+}
+
+#merriam-webster-id .footer-menu a,
+#merriam-webster-id .other-dictionaries ul a {
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+}
+
+#merriam-webster-id .footer-menu a {
+	color: #cbe1ea;
+	font-size: 15px;
+	margin: 0 .0625em .1875em 0;
+	padding: .1875em .25em 0;
+}
+
+#merriam-webster-id .footer-menu a .rborder {
+	border-right: 1px solid #54636d;
+	display: inline-block;
+	height: 11px;
+	margin-left: .375em;
+	vertical-align: middle;
+}
+
+#merriam-webster-id .footer-menu.browse-dictionary a {
+	text-transform: uppercase;
+}
+
+#merriam-webster-id .footer-menu.browse-dictionary li:first-child a {
+	text-transform: none;
+}
+
+#merriam-webster-id .footer-menu.last a {
+	border-right: 0;
+	margin-right: 0;
+}
+
+#merriam-webster-id a.anchor {
+	display: block;
+	position: relative;
+	top: -100px;
+	visibility: hidden;
+}
+
+@media (max-width: 46em) {
+	#merriam-webster-id a.anchor {
+		top: -40px;
+	}
+}
+
+@media (max-width: 69em) {
+	#merriam-webster-id .footer-mast .mw-logo-section {
+		margin: 0;
+		position: absolute;
+		width: auto;
+	}
+
+	#merriam-webster-id .footer-mast .mw-logo-section .footer-logo {
+		background-size: contain;
+		height: 5.8125em;
+		margin-left: 1.35em;
+		margin-top: 1.15em;
+		width: 5.8125em;
+	}
+
+	#merriam-webster-id .footer-mast .footer-mast-content {
+		float: none;
+		margin: auto .9375em;
+		width: auto;
+	}
+
+	#merriam-webster-id .footer-foot {
+		padding: 0 15px;
+	}
+
+	#merriam-webster-id .footer-dictionaries {
+		margin-left: .5em;
+		position: relative;
+	}
+
+	#merriam-webster-id .footer-dictionaries ul {
+		width: 50%;
+		margin-right: 0;
+	}
+}
+
+@media (max-width: 59.375em) {
+	#merriam-webster-id .footer-dictionaries {
+		width: auto;
+		float: none;
+		text-align: center;
+	}
+
+	#merriam-webster-id .footer-dictionaries .other-dictionaries {
+		margin-bottom: 1.8em;
+	}
+
+	#merriam-webster-id .footer-dictionaries .other-dictionaries ul li {
+		padding-bottom: 10px;
+	}
+
+	#merriam-webster-id .footer-dictionaries .other-dictionaries ul a {
+		letter-spacing: .0909em;
+		font-weight: 400;
+	}
+
+	#merriam-webster-id .footer-dictionaries ul {
+		width: auto;
+		float: none;
+		margin-bottom: 0;
+	}
+
+	#merriam-webster-id .follow-us {
+		width: auto;
+		margin-left: 0;
+		text-align: center;
+		float: none;
+	}
+
+	#merriam-webster-id .follow-us .follow-links {
+		width: 100%;
+		margin: 0;
+		text-align: center;
+	}
+
+	#merriam-webster-id .follow-us .follow-links ul {
+		width: 17.25em;
+		margin: 0 auto;
+		padding: 0;
+		text-align: center;
+	}
+
+	#merriam-webster-id .follow-us .follow-links ul li:first-child {
+		margin-left: 0;
+	}
+
+	#merriam-webster-id .follow-us .follow-links ul li:last-child {
+		margin-right: 0;
+	}
+
+	#merriam-webster-id .follow-us p,
+  #merriam-webster-id .footer-dictionaries p {
+		letter-spacing: .272em;
+		white-space: normal;
+		line-height: 1.6363;
+		margin: 0 auto 1.2em;
+		font-size: .6875em;
+	}
+}
+
+@media (max-width: 46em) {
+	#merriam-webster-id .footer-mast .mw-logo-section .footer-logo {
+		margin-left: 1em;
+		margin-top: .6875em;
+		width: 6.25em;
+		height: 6.25em;
+	}
+
+	#merriam-webster-id .global-footer {
+		height: auto;
+	}
+
+	#merriam-webster-id .footer-foot .footer-menu {
+		text-align: center;
+	}
+
+	#merriam-webster-id .footer-foot .footer-menu li {
+		float: none;
+		display: inline-block;
+	}
+}
+
+#merriam-webster-id .footer-subscribe-block {
+	border-bottom: 1px solid #939393;
+	clear: both;
+	float: none;
+	margin-bottom: 1.5625em;
+	margin-top: 2.8125em;
+	padding-bottom: 1.5625em;
+	width: 100%;
+	box-sizing: content-box;
+}
+
+#merriam-webster-id .footer-subscribe-block .footer-subscribe-msg {
+	float: left;
+	max-width: 270px;
+}
+
+#merriam-webster-id .footer-subscribe-block .footer-subscribe-msg p {
+	color: #fff;
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: .03em;
+	line-height: 1.5em;
+}
+
+#merriam-webster-id .footer-subscribe-block .footer-subscribe {
+	margin-right: 9em;
+	margin-left: 16.6em;
+}
+
+#merriam-webster-id .footer-subscribe-block .footer-subscribe .footer-subscribe-field {
+	background: rgba(255, 255, 255, 0.2);
+	border: 0;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 1.125em;
+	font-weight: 400;
+	height: 1em;
+	letter-spacing: .07em;
+	max-width: none;
+	padding: .888em .875em;
+	text-overflow: ellipsis;
+	vertical-align: middle;
+	width: 100%;
+	margin-right: -14em;
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	box-sizing: content-box;
+}
+
+#merriam-webster-id .footer-subscribe-block .footer-subscribe .footer-subscribe-field::-webkit-input-placeholder {
+	color: #fff;
+}
+
+#merriam-webster-id .footer-subscribe-block .footer-subscribe .footer-subscribe-field:-moz-placeholder,
+#merriam-webster-id .footer-subscribe-block .footer-subscribe .footer-subscribe-field::-moz-placeholder {
+	color: #fff;
+}
+
+#merriam-webster-id .footer-subscribe-block .footer-subscribe .footer-subscribe-field:-ms-input-placeholder {
+	color: #fff;
+}
+
+#merriam-webster-id .footer-subscribe-block .footer-subscribe .footer-subscribe-button {
+	background: #ae0015;
+	border: 0;
+	border-radius: 6px;
+	color: #fff;
+	float: right;
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	font-size: .75em;
+	font-weight: 700;
+	height: 3.787em;
+	letter-spacing: .125em;
+	line-height: .9375em;
+	margin-right: -11.9166em;
+	padding: .1875em .85em;
+}
+
+#merriam-webster-id .footer-subscribe-block .footer-subscribe .footer-subscribe-button:hover {
+	background: #c42236;
+}
+
+@media (max-width: 46em) {
+	#merriam-webster-id .footer-subscribe-block {
+		padding-left: 0;
+		height: auto;
+		padding-bottom: .9em;
+		margin-top: 1.4em;
+	}
+
+	#merriam-webster-id .footer-subscribe-block .footer-subscribe-msg {
+		padding-left: 6.76em;
+		max-width: 100%;
+		height: 6.5em;
+		margin-right: 0;
+	}
+
+	#merriam-webster-id .footer-subscribe-block .footer-subscribe-msg p {
+		font-size: 1.125em;
+		font-weight: 700;
+		letter-spacing: .05em;
+		line-height: 1.3;
+		padding-top: .15em;
+		white-space: normal;
+		display: flex;
+		align-items: center;
+		height: 76px;
+	}
+
+	#merriam-webster-id .footer-subscribe-block .footer-subscribe {
+		margin-left: 0;
+		clear: both;
+		margin-right: 3.75em;
+	}
+
+	#merriam-webster-id .footer-subscribe-block .footer-subscribe .footer-subscribe-field {
+		max-width: none;
+		height: 3.125em;
+		letter-spacing: .1464em;
+		font-weight: 400;
+		box-sizing: border-box;
+		font-size: 1em;
+	}
+
+	#merriam-webster-id .footer-subscribe-block .footer-subscribe .footer-subscribe-field::-webkit-input-placeholder {
+		letter-spacing: .1464em;
+		font-weight: 400;
+		font-size: 1em;
+	}
+
+	#merriam-webster-id .footer-subscribe-block .footer-subscribe .footer-subscribe-field:-moz-placeholder,
+  #merriam-webster-id .footer-subscribe-block .footer-subscribe .footer-subscribe-field::-moz-placeholder {
+		letter-spacing: .1464em;
+		font-weight: 400;
+		font-size: 1em;
+	}
+
+	#merriam-webster-id .footer-subscribe-block .footer-subscribe .footer-subscribe-field:-ms-input-placeholder {
+		letter-spacing: .1464em;
+		font-weight: 400;
+		font-size: 1em;
+	}
+
+	#merriam-webster-id .footer-subscribe-block .footer-subscribe .footer-subscribe-button {
+		height: 3.125em;
+		font-size: 1em;
+		margin-right: -3.75em;
+		display: none;
+		width: 3.125em;
+		box-sizing: border-box;
+	}
+
+	#merriam-webster-id .footer-subscribe-block .footer-subscribe .footer-subscribe-button.arrow {
+		background: url(https://merriam-webster.com/assets/mw/static/app-css-images/global/carrot@2x.png) 2.27272727% no-repeat #ae0015;
+		display: block!important;
+		text-indent: -999px;
+	}
+}
+
+@media (max-width: 69em) {
+	#merriam-webster-id .footer-subscribe-block {
+		max-width: none;
+		width: auto;
+		padding-left: 7em;
+		height: 3.5em;
+	}
+
+	#merriam-webster-id .footer-subscribe-msg {
+		margin-right: 0;
+	}
+
+	#merriam-webster-id .footer-subscribe-msg p {
+		font-size: 1.1em;
+		letter-spacing: .0555em;
+		line-height: 1.222;
+	}
+}
+
+@media (max-width: 46em) {
+	#merriam-webster-id .footer-subscribe-block {
+		padding-left: 0;
+		height: auto;
+		padding-bottom: .9em;
+		margin-top: 1.4em;
+	}
+
+	#merriam-webster-id .footer-subscribe-block .footer-subscribe-msg {
+		padding-left: 6.76em;
+		max-width: 100%;
+		height: 6.5em;
+		margin-right: 0;
+	}
+
+	#merriam-webster-id .footer-subscribe-block .footer-subscribe-msg p {
+		font-size: 1.125em;
+		font-weight: 700;
+		letter-spacing: .05em;
+		line-height: 1.3;
+		padding-top: .15em;
+		white-space: normal;
+		display: flex;
+		align-items: center;
+		height: 76px;
+	}
+
+	#merriam-webster-id .footer-subscribe-block .footer-subscribe {
+		margin-left: 0;
+		clear: both;
+		margin-right: 3.75em;
+	}
+
+	#merriam-webster-id .footer-subscribe-block .footer-subscribe .footer-subscribe-field {
+		max-width: none;
+		height: 3.125em;
+		letter-spacing: .1464em;
+		font-weight: 400;
+		font-size: 1em;
+	}
+
+	#merriam-webster-id .footer-subscribe-block .footer-subscribe .footer-subscribe-field::-webkit-input-placeholder {
+		letter-spacing: .1464em;
+		font-weight: 400;
+		font-size: 1em;
+	}
+
+	#merriam-webster-id .footer-subscribe-block .footer-subscribe .footer-subscribe-field:-moz-placeholder,
+  #merriam-webster-id .footer-subscribe-block .footer-subscribe .footer-subscribe-field::-moz-placeholder {
+		letter-spacing: .1464em;
+		font-weight: 400;
+		font-size: 1em;
+	}
+
+	#merriam-webster-id .footer-subscribe-block .footer-subscribe .footer-subscribe-field:-ms-input-placeholder {
+		letter-spacing: .1464em;
+		font-weight: 400;
+		font-size: 1em;
+	}
+
+	#merriam-webster-id .footer-subscribe-block .footer-subscribe .footer-subscribe-button {
+		height: 3.125em;
+		font-size: 1em;
+		margin-right: -3.75em;
+		display: none;
+		width: 3.125em;
+		box-sizing: border-box;
+	}
+
+	#merriam-webster-id .footer-subscribe-block .footer-subscribe .footer-subscribe-button.arrow {
+		background: url(https://merriam-webster.com/assets/mw/static/app-css-images/global/carrot@2x.png) 2.27272727% no-repeat #ae0015;
+		display: block!important;
+		text-indent: -999px;
+	}
+}

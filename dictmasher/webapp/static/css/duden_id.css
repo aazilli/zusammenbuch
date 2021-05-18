@@ -241,7 +241,7 @@
 	display: none;
 }
 
-#duden-id body {
+#duden-id {
 	margin: 0;
 	font-family: T, cv, l, sans-serif;
 	line-height: 1.6;
@@ -253,13 +253,13 @@
 }
 
 @media (min-width: 1000px) {
-	#duden-id body {
+	#duden-id {
 		font-size: 17px;
 	}
 }
 
 @media (max-width: 650px) {
-	#duden-id body {
+	#duden-id {
 		font-size: 16px;
 	}
 }
@@ -913,6 +913,15 @@
 		-ms-grid-row: 9;
 		grid-row: 9;
 	}
+}
+
+
+#duden-id .infobox {
+    background: #fff6d0;
+    padding: 20px;
+    margin: 1em 0;
+    outline: #fff solid 5px;
+    font-family: T,cv,l,sans-serif;
 }
 
 #duden-id .tabloid__wide-column {

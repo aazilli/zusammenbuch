@@ -3,26 +3,91 @@
   <html lang="en">
   <head>
       <meta charset="UTF-8">
-      <title>Das Zusammenbuch</title>
+      <title>{{search_field}}</title>
 
-      <link rel="stylesheet" href="{% static 'css/cc_id.css' %}" type="text/css">
-      <link rel="stylesheet" href="{% static 'css/leo_id.css' %}" type="text/css">
-      <link rel="stylesheet" href="{% static 'css/linguee_id.css' %}" type="text/css">
-      <link rel="stylesheet" href="{% static 'css/dwds_id.css' %}" type="text/css">
-      <link rel="stylesheet" href="{% static 'css/bootstrap_dwds.css' %}" type="text/css">
-      <link rel="stylesheet" href="{% static 'css/duden_id.css' %}" type="text/css">
+<!-- foor loop begin -->
+      {% for dictionary in dictionaries %}
+        {{dictionary.make_font_dependencies|safe}}
+      {% endfor %}
+
+    <link rel="preload" as="font" href="/static/css/fonts/icons-ebb889fc.woff2" type="font/woff2">
+
+      {% for dictionary in dictionaries %}
+        {{dictionary.make_css_dependencies|safe}}
+      {% endfor %}
+
+      {% for dictionary in dictionaries %}
+        {{dictionary.make_js_dependencies|safe}}
+      {% endfor %}
+<!-- foor loop end -->
+
+
+      <link rel="stylesheet" href="{% static 'css/results_page.css' %}" type="text/css">
+      <link rel="stylesheet" href="{% static 'css/searchbar_results.css' %}" type="text/css">
+      <script src="{% static 'js/search_home.js' %}"></script>
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <script src="{% static 'js/dwds.js' %}"></script>
       <script src="{% static 'js/dist/modern/dict.webpack-734fb2aa.js' %}"></script>
 
+      {% if lang == 'EN'%}
+      <link rel="icon" type="image/x-icon" href="{% static 'favicons/EN/favicon.ico' %}"/>
+      <!-- <script>ENSwitch();</script> -->
+      {% else %}
+      <link rel="icon" type="image/x-icon" href="{% static 'favicons/DE/favicon.ico' %}"/>
+      {% endif %}
+
+
   </head>
   <body>
 
-    {% for dictionary in dictionaries %}
-    {{dictionary.make_article|safe}}
-    <br>
-    {% endfor %}
+    <form id="search-form" type="POST" action='/webapp/results'>
+      {% csrf_token %}
+    <span class="search-wrap">
+       <span class="search">
+          <input type="text" name="search_field" class="searchTerm" placeholder="ein Wörtchen nachschlagen" required id="id_search_field">
+          <button id="search_submit" type="submit" class="searchButton">
+            <img src="{% static 'search.png' %}" />
+          </button>
+       </span>
+
+         <button class="lang-selector" id="DE-button" type="button" onclick="DESwitch()">DE</button>
+         <button class="lang-selector" id="EN-button" type="button" onclick="ENSwitch()">EN</button>
+
+        <input type="text" name="lang" id="id_lang" value="DE"></input>
+    </span>
+    </form>
+
+    {% if lang == 'EN'%}
+    <script>ENSwitch();</script>
+    {% endif %}
+
+    <span id="topnav">
+    <a class="topbutton" href="{% url 'settings' %}" id="settings-link">Settings</a>
+    <a class="topbutton" href="{% url 'about' %}" id="settings-link">About</a>
+    </span>
+
+    <nav class="sidenav">
+
+      {% for dictionary in dictionaries %}
+      {% if dictionary.name == "Merriam-Webster Thesaurus" %}
+      <a href="#mw-thes">{{dictionary.name}}
+      {% else %}
+      <a href="#{{dictionary.div_id}}">{{dictionary.name}}
+      {% endif %}
+      {% with 'favicons/'|add:dictionary.div_id|add:'-favicon.png' as favicon_static %}
+      <img src="{% static favicon_static %}" class="nav-favicon" width="16" height="16">
+      {% endwith %}
+      </a>
+      {% endfor %}
+    </nav>
+
+    <div class="results-wrapper">
+      {% for result in results %}
+        {{result|safe}}
+      {% endfor %}
+
+    </div>
 
   </body>
 </html>

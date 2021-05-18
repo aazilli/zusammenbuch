@@ -1,31 +1,78 @@
+{% load static %}
+
 <!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>Dict Masher</title>
+
+      <link rel="stylesheet" href="{% static 'css/form_style.css' %}" type="text/css">
+      <link rel="stylesheet" href="{% static 'css/searchbar_results.css' %}" type="text/css">
+      <script src="{% static 'js/search_home.js' %}"></script>
     </head>
     <body>
 
 <!-- add sub-section headers for translation and language-specific dictionaries -->
 
-      <h1>German searches</h1>
-      <form method="post">
+    <form id="search-form" type="GET" action='/webapp/results'>
+    <span class="search-wrap">
+       <span class="search" id="search-span">
+          <input type="text" name="search_field" class="searchTerm" placeholder="ein Wörtchen nachschlagen" required id="id_search_field">
+          <button id="search_submit" type="submit" class="searchButton">
+            <img src="{% static 'search.png' %}" />
+          </button>
+       </span>
+
+         <button class="lang-selector" id="DE-button" type="button" onclick="DESwitch()">DE</button>
+         <button class="lang-selector" id="EN-button" type="button" onclick="ENSwitch()">EN</button>
+
+        <input type="text" name="lang" id="id_lang" value="DE"></input>
+    </span>
+    </form>
+
+    <span id="topnav">
+    <a class="topbutton" href="{% url 'about' %}" id="settings-link">About</a>
+    </span>
+
+<!-- use validation to make sure order entries are unique? -->
+
+  <div id="settings-wrapper">
+      <div class="flexbox-container">
+      <form method="POST" id="settings-form">
       {% csrf_token %}
+      <h1>German Searches</h1>
+      <span class="type-header">Translation Dictionaries</span> <span class="order-header">Order  <span class="tooltip"><img src="{% static 'favicons/info.png' %}" width="12px" id="order-info"><span class="tooltiptext">Enter the order (ascending from 1) in which you want the dictionaries displayed. Orders are separate for the German and English searches.  </span></span></span> <span class="display-header">Display  <span class="tooltip"><img src="{% static 'favicons/info.png' %}" width="12px" id="display-info"><span class="tooltiptext">Choose whether to display all sections from a dictionary's results page (full) or just the definition entries (lite).</span></span></span>
       {% for dictionary in dictionaries %}
-      {% if dictionary.lang != 'EN'%}
+      {% if dictionary.lang == 'TRANS'%}
       {{dictionary.make_form|safe}}
-      <br>
       {% endif %}
       {% endfor %}
-      <h1>English searches</h1>
-      {% for dictionary in dictionaries %}
-      {% if dictionary.lang != 'DE'%}
-      {{dictionary.make_form|safe}}
       <br>
+      <span class="type-header">German-language Dictionaries</span>
+      {% for dictionary in dictionaries %}
+      {% if dictionary.lang == 'DE'%}
+      {{dictionary.make_form|safe}}
       {% endif %}
       {% endfor %}
-      <input type="submit">
+      <h1>English Searches</h1>
+      <span class="type-header">Translation Dictionaries</span> <span class="order-header">Order</span> <span class="display-header">Display</span>
+      {% for dictionary in dictionaries %}
+      {% if dictionary.lang == 'TRANS'%}
+      {{dictionary.make_form|safe}}
+      {% endif %}
+      {% endfor %}
+      <br>
+      <span class="type-header">English-language Dictionaries</span>
+      {% for dictionary in dictionaries %}
+      {% if dictionary.lang == 'EN'%}
+      {{dictionary.make_form|safe}}
+      {% endif %}
+      {% endfor %}
+
+      <input type="submit" value="Save" id="save-button">
       </form>
+    </div>
+  </div>
 
   </body>
   </html>

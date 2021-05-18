@@ -1,0 +1,46 @@
+{% load crispy_forms_tags %}
+
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>{{search_field}}</title>
+  </head>
+  <body>
+
+<div id="about">
+
+<p>
+Welcome to Das Zusammenbuch, a dashboard created for the German-English
+translator so that they might be spared some fraction of
+the agony involved in opening endless browser tabs for each of their
+many dictionary needs. Enlist or cull dictionaries on a whim
+via the settings page and display them in your preferred order.
+</p>
+
+<p>
+As of now there are no immediate plans to expand this tool to other languages,
+but there will be additional English and German-language dictionaries coming
+soon. Candidates include DWDS, Thesaurus.com, TheFreeDictionary.com,
+Wiktionary (.en and .de), the Grimm Wörterbuch, and perhaps even the OED.
+</p>
+
+<p>
+Feel free to use the form below to share your thoughts, suggestions, bugs
+(with a screenshot, if possible), or to recommend a dictionary you might like added.
+Das Zusammenbuch was conceived based on my own workflow as a translator, so
+tips from other translators will be helpful to me in expanding its functionality.
+</p>
+
+</div>
+
+<form method="post">
+  {% csrf_token %}
+  {{ form|crispy }}
+
+  <div class="form-actions">
+    <button type="submit">Send</button>
+  </div>
+</form>
+  </body>
+  </html>
