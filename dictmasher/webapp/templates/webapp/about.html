@@ -1,21 +1,26 @@
 {% load crispy_forms_tags %}
+{% load static %}
 
 <!DOCTYPE html>
   <html lang="en">
   <head>
       <meta charset="UTF-8">
-      <title>{{search_field}}</title>
+      <title>About</title>
+      <link rel="stylesheet" href="{% static 'css/about.css' %}" type="text/css">
+
   </head>
   <body>
 
 <div id="about">
+<h1>About</h1>
 
 <p>
 Welcome to Das Zusammenbuch, a dashboard created for the German-English
 translator so that they might be spared some fraction of
 the agony involved in opening endless browser tabs for each of their
-many dictionary needs. Enlist or cull dictionaries on a whim
-via the settings page and display them in your preferred order.
+many dictionary needs. View the results of multiple dictionaries with a single
+search! Enlist or cull dictionaries on a whim
+via the settings page! Display results in your preferred order!
 </p>
 
 <p>
@@ -26,10 +31,8 @@ Wiktionary (.en and .de), the Grimm Wörterbuch, and perhaps even the OED.
 </p>
 
 <p>
-Feel free to use the form below to share your thoughts, suggestions, bugs
-(with a screenshot, if possible), or to recommend a dictionary you might like added.
-Das Zusammenbuch was conceived based on my own workflow as a translator, so
-tips from other translators will be helpful to me in expanding its functionality.
+Feel free to use the form below to share your thoughts, suggestions, bugs, or
+recommend a dictionary you might like added.
 </p>
 
 </div>

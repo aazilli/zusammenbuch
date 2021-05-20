@@ -3,21 +3,16 @@
     <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Dict Masher</title>
+        <title>Das Zusammenbuch</title>
 
         <link rel="stylesheet" href="{% static 'css/search_home.css' %}" type="text/css">
         <script src="{% static 'js/search_home.js' %}"></script>
+        <link rel="icon" type="image/x-icon" href="{% static 'favicons/ZB/favicon.ico' %}"/>
     </head>
     <body class="main-body">
 
-<!-- <form type="POST" action='/webapp/results'>
-  {% csrf_token %}
-  {{form}}
-    <button id="search_submit" type="submit">Submit</button>
-</form> -->
 
-
-<form type="GET" action='/webapp/results'>
+<form type="GET" action='/results'>
 <div class="wrap">
    <span class="search">
       <input type="text" name="search_field" class="searchTerm" placeholder="ein Wörtchen nachschlagen" required id="id_search_field">

@@ -5,6 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.prod
+    image: 884709943476.dkr.ecr.us-east-2.amazonaws.com/django-ec2:web
     command: gunicorn dictmasher.wsgi:application --bind 0.0.0.0:8000
     volumes:
       - static_volume:/home/app/web/static
@@ -12,25 +13,28 @@ services:
       - 8000
     env_file:
       - ./.env.prod
-    depends_on:
-      - db
-  db:
-    image: postgres:12.0-alpine
-    volumes:
-      - postgres_data:/var/lib/postgresql/data/
-    env_file:
-      - ./.env.prod.db
+    # depends_on:
+    #   - db
+  # db:
+  #   image: postgres:12.0-alpine
+  #   volumes:
+  #     - postgres_data:/var/lib/postgresql/data/
+  #   env_file:
+  #     - ./.env.prod.db
 
   nginx:
-    build: ./nginx
+    build: nginx
+    image: 884709943476.dkr.ecr.us-east-2.amazonaws.com/django-ec2:nginx-proxy
+    restart: always
+    ports:
+      - 443:443
+      - 80:80
     volumes:
       - static_volume:/home/app/web/static
-    ports:
-      - 1337:80
     depends_on:
       - web
 
 
 volumes:
-  postgres_data:
+  # postgres_data:
   static_volume:

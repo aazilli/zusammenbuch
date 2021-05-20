@@ -4,17 +4,19 @@
     <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Dict Masher</title>
+        <title>Das Zusammenbuch</title>
 
       <link rel="stylesheet" href="{% static 'css/form_style.css' %}" type="text/css">
       <link rel="stylesheet" href="{% static 'css/searchbar_results.css' %}" type="text/css">
       <script src="{% static 'js/search_home.js' %}"></script>
+      <link rel="icon" type="image/x-icon" href="{% static 'favicons/ZB/favicon.ico' %}"/>
+
     </head>
     <body>
 
 <!-- add sub-section headers for translation and language-specific dictionaries -->
 
-    <form id="search-form" type="GET" action='/webapp/results'>
+    <form id="search-form" type="GET" action='/results'>
     <span class="search-wrap">
        <span class="search" id="search-span">
           <input type="text" name="search_field" class="searchTerm" placeholder="ein Wörtchen nachschlagen" required id="id_search_field">

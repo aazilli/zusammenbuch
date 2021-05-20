@@ -41,7 +41,7 @@
   </head>
   <body>
 
-    <form id="search-form" type="POST" action='/webapp/results'>
+    <form id="search-form" type="GET" action='/results'>
       {% csrf_token %}
     <span class="search-wrap">
        <span class="search">
